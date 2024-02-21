@@ -1,51 +1,66 @@
 "use client";
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import Theme from "../../components/theme.jsx"
-import { Carousel } from "react-responsive-carousel";
-import "./about.css";
 import Footer from "@/src/components/footer";
 import Header from "@/src/components/Header/Header.js";
 
 const Page = () => {
   return (
     <>
-    <Header active='about'/>
-      <Carousel
-        itemsToShow={1}
-        autoPlay={true}
-        centerMode={false}
-        emulateTouch={true}
-        showThumbs={false}
-        infiniteLoop={true}
-        showStatus={false}
-      >
-        <img src="hero.png" className="carousel-img " alt="about-img" />
-        <img src="image2.png" className="carousel-img" alt="about-img" />
-
-        <img src="image11.png" className="carousel-img" alt="about-img" />
-        <img src="image1.jpg" className="carousel-img" alt="about-img" />
-
-        <img src="image9.png" className="carousel-img" alt="about-img" />
-        <img src="image6.jpg" className="carousel-img" alt="about-img" />
-
-        <img src="image7.png" className="carousel-img" alt="about-img" />
-        <img src="image8.png" className="carousel-img" alt="about-img" />
-      </Carousel>
-      <div id="theme" className="target">
-        <div className="container mb-5" >
-        <h1 className="text-blue-800 text-4xl mb-3">AKGEC</h1>
-          <p>Ajay Kumar Garg Engineering College (AKGEC), Ghaziabad is affiliated to Uttar Pradesh State Technical University, Dr. A.P.J. Abdul Kalam Technical University, Lucknow, India and is approved by the All India Council for Technical Education (AICTE). The college was established in 1998 and offers B.Tech. courses in nine disciplines of Engineering namely Computer Science and Engineering, Information Technology, Computer Science, Computer Science & Information Technology, Computer Science and Engineering (Artificial Intelligence & Machine Learning), Computer Science and Engineering (Data Science), Computer Science and Engineering (Hindi), Artificial Intelligence & Machine Learning, Electronics and Communication Engineering, Electrical and Electronics Engineering, Mechanical Engineering and Civil Engineering. B.Tech. programs in Computer Science and Engineering, Information Technology, Electronics and Communication Engineering, Electrical and Electronics Engineering and Mechanical Engineering are accredited by NBA. At the postgraduate level, the College offers M.Tech. in Electronics & Communication Engineering, Computer Science, Electrical and Electronics Engineering and Mechanical Engineering and the Master of Computer Applications course.
-            <br></br>
-            The college strives for excellence and has been consistently maintaining excellent academic results and placements. The college has the distinction of being the first and only college in UP to receive the Academic Excellence Award for the Best Engineering College in UPTU (now AKTU) from H.E. the Governor of UP for two successive years. It is a matter of pride for the College to maintain a superlative overall academic performance over the years with a large number of students appearing in the University Merit List every year. The College has the honor of being awarded the Chancellor’s Award for highest marks in all B.Tech. courses for five consecutive years in 2015-16, 2016-17, 2017-18, 2018-19 and 2019-20 since its inception in 2016.</p>
+      <Header active="about" />
+      <div className="flex flex-col px-8 sm:px-20 py-6 gap-8">
+        <div className="flex bg-[#FFF4F8] flex-col px-8 md:px-16 py-8 rounded-2xl gap-3">
+          <p className="text-[#FE508D] text-2xl font-medium">About AKGEC</p>
+          <img src="./akg.png"></img>
+          <p>
+            Ajay Kumar Garg Engineering College (AKGEC), Ghaziabad, Uttar
+            Pradesh is approved by AICTE and affiliated to Dr. A.P.J. Abdul
+            Kalam Technical University, Lucknow. The college, established in
+            1998, has six Engineering Departments offering B.Tech programs in
+            twelve disciplines. The college also offers postgraduate programs in
+            Computer Application (MCA) and M.Tech. in four disciplines. All five
+            major B.Tech. programs are accredited by NBA. The college strives
+            for excellence and has been consistently maintaining excellent
+            academic results and placements. The college has the distinction of
+            being the first and only college in UP to receive the Academic
+            Excellence Award for the Best Engineering College in UPTU (now AKTU)
+            from H.E. the Governor of UP for two successive years. The college
+            has been consistently having a large number of students in
+            university merit lists. The College students have the honor of being
+            awarded the Chancellor&#39;s Medal for highest marks across all
+            B.Tech. programs for five consecutive years since the inception of
+            this Award in 2016. The college places special emphasis on
+            collaboration with industries to groom the students for meeting the
+            industry standards. The college has established a number of Centres
+            of Excellence in collaboration with eminent multinational
+            industries. The primary objective of these centres is to provide
+            industry relevant training in inter-disciplinary state-of art
+            technologies as well as to promote applied research and industrial
+            consultancy.
+          </p>
         </div>
-
-        <div className="container mb-5" >
-        <h1 className="text-blue-800 text-4xl mb-3">AKGEC Conference</h1>
-          <p>Human tendency has always remained dynamic and has led to various revolutions for mankind. Nineteenth century was the era of machine revolution, twentieth century was the era of electronic revolution but the 21st century is time of Computing and Information Technology (CIT) revolution. The peculiar thing with CIT revolution is that it is globalized while earlier revolutions belonged only to some countries. CIT is touching each and every walk of life. Now every field of life such as industrial, rural development, medical, economical, even social field are looking forward for help from CIT for their survival and growth. <br></br>
-            CIT in itself consists of wide range of possibilities which are increasing exponentially day by day. To cope up with increasing global need for high performance, more efficiency, and optimized output; advance computing technologies are the growing research area in the field of CIT. Although various high performance models such as cluster computing, Grid computing and cloud computing have been proposed but these models are still looking for big hands in research. So, Advance Computing has been one of the most promising research areas throughout the globe for some decades now. With this thought in mind, Department of Computer Science and Engineering, Ajay Kumar Garg Engineering College, Ghaziabad, Uttar Pradesh (India) has planned to bring together the Advance Computing research community through 1st IEEE International Conference on Advanced Computing and Emerging Technologies (ACET-2024), 23-24 August 2024. <br></br>
-            ACET-2024 is being organized with the objective of bringing together researchers, developers, and practitioners from academia and industry working in the area of advance computing and technologies. ACET-2024 aims to provide an international and interdisciplinary forum for the Computer Science and Technology research community to explore the frontier of science and technology in advanced computing, emerging technologies, data science, machine learning, deep learning, and intelligent machines. English is the official language of the conference
+        <div className="flex bg-[#FFF4F8] flex-col px-8 md:px-16 py-8 rounded-2xl gap-3">
+          <p className="text-[#FE508D] text-2xl font-medium">About Women in Power Conference</p>
+          <img src="./girlpower.png"></img>
+          <p>
+          The conference on &quot;Women in Power&quot; is driven by a profound motivation to acknowledge
+ and celebrate the invaluable contributions of women in engineering, technology, research,
+ and innovation. Through a dedicated showcase of their achievements, the conference seeks to
+ amplify awareness of the substantial impact the women have had on the industry, academics
+ and society at large. Beyond recognition, the event is committed to fostering career
+ development and mentorship opportunities, recognizing the critical role mentorship plays in
+ the professional growth of women. By facilitating interactions between established
+ professionals and aspiring women, the conference aims to cultivate mentorship relationships
+ that significantly contribute to career advancement. Moreover, the conference serves as a
+ platform to openly address and discuss the unique challenges and barriers that women may
+ encounter in pursuing careers in power-related fields, with a focus on generating meaningful
+ solutions and support systems. Emphasizing knowledge sharing and collaboration, the
+ conference provides a space for women professionals, aspiring women, students and
+ researchers to exchange ideas, experiences, and collectively contributing to advancements in
+ the society. Additionally, the conference plays a pivotal role in promoting role models by
+ highlighting successful women leaders in the STEM field, aiming to inspire and motivate the
+ next generation of women to pursue careers in these fields. The overarching theme of
+ &quot;Women in Power&quot; encompasses a multifaceted approach, combining recognition,
+ mentorship, problem-solving, collaboration, and inspiration to empower women in the
+ dynamic and vital domain of science and technology.
           </p>
         </div>
       </div>

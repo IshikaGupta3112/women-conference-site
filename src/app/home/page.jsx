@@ -1,121 +1,117 @@
 "use client";
-import React from 'react'
-import Theme from "../../components/theme.jsx"
-import Footer from "../../components/footer.jsx"
-import Header from '../../components/Header/Header.js'
+import React from "react";
+import Footer from "../../components/footer.jsx";
+import Header from "../../components/Header/Header.js";
 const page = () => {
   return (
     <>
-     <Header active='home'/>
-    <div className="relative flex flex-col overflow-hidden bg-white ">
-      <div className=" lg:pt-[100px] mb-[50px]  mx-auto flex flex-col space-y-4 px-4 text-center lg:flex-row sm:items-center sm:justify-between sm:space-y-0 lg:px-8 ">
-        <div className=" mb-[100px]">
-          <div className="mt-10 flex max-w-max items-center space-x-2 rounded-full border p-2">
-            <p className="heading1 text-[1.125rem] font-medium self-center">
-              INTERNATIONAL{" "}
-              <span className=" text-blue-800 "> CONFERENCE ON</span>
-              <span className="ml-2 cursor-pointer font-bold">&rarr;</span>
+      <Header active="home" />
+      <div
+        className="bg-gradient-to-b from-[#FE508D25] to-[#D9D9D9
+          0] flex justify-center items-center flex-col py-12"
+      >
+        <div className="w-[70%] md:w-[68%] flex flex-col justify-center items-center gap-4">
+          <p className=" text-center text-2xl sm:text-3xl md:text-4xl sm:leading-normal md:leading-relaxed">
+            Catalysing Change : Women{" "}
+            <span className="text-[#FE508D]">Empowering</span> the Next Wave
+          </p>
+          <p className=" text-center text-base sm:text-lg md:text-xl">
+            The conference hosted by{" "}
+            <span className="font-medium">
+              Ajay Kumar Garg Engineering College, Ghaziabad
+            </span>
+            , will be held in offline  mode from{" "}
+            <span className="text-[#FE508D] font-medium">
+              12-13th April 2024.
+            </span>
+          </p>
+          <button className="bg-[#FE508D] text-white font-medium rounded-2xl px-5 py-3">
+            Register &rarr;
+          </button>
+          <img src="./homeBanner.svg" className="my-8"></img>
+        </div>
+      </div>
+      <div className="flex flex-col px-10 sm:px-32 py-8 gap-12">
+        <div className="flex bg-[#FFF4F8] rounded-2xl px-8 py-4 lg:px-16 lg:py-10 justify-between items-center">
+          <div className="text-base w-full lg:max-w-[380px]">
+            <p className="text-[#FE508D] text-3xl mb-3 lg:my-2">About AKGEC</p>
+            <img src="./aboutakgec.png" className="block lg:hidden w-full"></img>
+            <p className="my-6 font-thin lg:pr-10">
+              Ajay Kumar Garg Engineering College (AKGEC), Ghaziabad, Uttar
+              Pradesh is approved by AICTE and affiliated to Dr. A.P.J. Abdul
+              Kalam Technical University, Lucknow. The college, established in
+              1998, has six Engineering Departments offering B.Tech programs in
+              twelve disciplines. The college also offers postgraduate programs
+              in Computer Application...
             </p>
+            <button className="border-[#FE508D] border-1 rounded p-2">
+              read more &rarr;
+            </button>
           </div>
-          <h1 className="heading2 text-center  mt-8 max-w-4xl text-3xl font-bold tracking-tight text-black md:text-4xl lg:text-6xl">
-            Advanced Computing & <span className=''>Emerging Technologies{" "}</span>
-            <span className="block text-blue-800 mt-1 ">(A.C.E.T)</span>
-          </h1>
-          <div className="heading3 flex mt-8  text-lg text-gray-700 items-center gap-2 ">
-            <img src="calendar.svg" className=" h-[36px] w-[36px]" />
-            < >August 23-24, 2024</>
+          <div>
+            <img src="./aboutakgec.png" className="hidden lg:block"></img>
           </div>
         </div>
-        <div className="lg:ml-16 lg:flex lg:w-1/2 lg:items-center  lg:justify-center ">
-          <div className="relative mx-5 lg:w-96">
-            <div className="bg-tranparent absolute left-0 top-0 -ml-20 -mt-16 size-40 rounded-full border border-blue-200 :border-blue-900 lg:size-72" />
-            <div className="bg-tranparent absolute left-0 top-0 -ml-14 -mt-20 size-40 rounded-full border border-blue-100 :border-blue-950 lg:size-72" />
-            <div className="bg-tranparent absolute bottom-0 right-0 -mb-16 -mr-20 size-40 rounded-full border border-blue-200 :border-blue-900 lg:size-72" />
-            <div className="bg-tranparent absolute bottom-0 right-0  -mr-14 size-40 rounded-full border border-blue-100 :border-blue-950 lg:size-72 " />
-            <div className="absolute inset-0 -m-6 -rotate-2 rounded-xl bg-gray-200 :bg-gray-800" />
-            <div className="absolute inset-0 -m-6 rotate-1 rounded-xl bg-blue-800 bg-opacity-75 shadow-inner :bg-blue-900 :bg-opacity-75" />
-            <img
-              src="naya.png"
-              className="relative w-[100%] rounded-lg shadow-lg h-[400px] bg-white"
-              alt="Hero Image"
-            />
+        <div className="flex bg-[#FFF4F8] rounded-2xl px-8 py-4 lg:px-16 lg:py-10 justify-between items-center">
+          <div className="text-base w-full lg:max-w-[380px]">
+            <p className="text-[#FE508D] text-3xl mb-3 lg:my-2">
+              About Women in Power Conference
+            </p>
+            <img src="./grlPow.png" className="block lg:hidden w-full"></img>
+            <p className="my-6 font-thin lg:pr-10">
+              The conference on Women in Power is driven by a profound
+              motivation to acknowledge and celebrate the invaluable
+              contributions of women in engineering, technology, research, and
+              innovation. Through a dedicated showcase of their achievements,
+              the conference seeks to amplify awareness of the substantial
+              impact the women have had on the industry, academics. ...
+            </p>
+            <button className="border-[#FE508D] border-1 rounded p-2">
+              read more &rarr;
+            </button>
+          </div>
+          <div>
+            <img src="./grlPow.png" className="hidden lg:block"></img>
           </div>
         </div>
       </div>
-    
-      <div id="date" className="lg:mt-3 px-[12px] mt-[50px] ">
-        <div className="">
-          <h1 className="mb-3 text-blue-800  md:text-4xl text-[25px] ">
-           Date and Venue of the Conference<span className=" text-[#000]"> &rarr;</span>
-          </h1>
-          <p className=" text-[15px] md:text-lg text-gray-700 ">
-            The conference organized by Department of Computer Science &
-            Engineering, will be held offline at AKGEC, Ghaziabad, Uttar
-            Pradesh, India on 23-24 August 2024 in collaboration with IEEE
-            Uttar Pradesh Section. The conference will include regular
-            sessions with poster/oral presentations, global and technical
-            sessions, panel discussions and poster presentations organized in
-            AKGEC.
+      <div className="flex justify-center items-center flex-col py-12">
+        <div className="w-[80%] lg:w-[62%] flex flex-col gap-10">
+          <div className="flex flex-col justify-center items-center gap-2 px-2 md:px-8 xl:px-20">
+            <p className="text-[#FE508D] text-xl sm:text-2xl md:text-3xl font-medium">
+              Call for Participation
+            </p>
+            <p className="text-center text-base sm:text-lg md:text-xl">
+              Student participation (both girls & boys) is being invited for the
+              following competitive activities:
+            </p>
+            <div className="flex flex-col w-full sm:flex-row sm:flex-wrap justify-center items-center mt-2 gap-6">
+              <span className="border-1 border-[#FF8AAC] rounded w-full text-center sm:w-auto py-3 px-4 text-base sm:text-lg md:text-xl">
+                Paper Presentation
+              </span>
+              <span className="border-1 border-[#FF8AAC] rounded w-full text-center sm:w-auto py-3 px-4 text-base  sm:text-lg md:text-xl">
+                Poster Presentations
+              </span>
+              <span className="border-1 border-[#FF8AAC] rounded w-full text-center sm:w-auto py-3 px-4 text-base sm:text-lg md:text-xl">
+                Debate
+              </span>
+              <span className="border-1 border-[#FF8AAC] rounded w-full text-center sm:w-auto py-3 px-4 text-base sm:text-lg md:text-xl">
+                Rangoli Making Competetion
+              </span>
+            </div>
+          </div>
+          <p className="text-sm sm:text-base md:text-lg text-center">
+            For submission, please send the paper and poster to the following
+            email address:{" "}
+            <span className="text-[#F7366F]">eee.events@akgec.ac.in</span> with
+            CC to{" "}
+            <span className="text-[#F7366F]">bhargavavani@akgec.ac.in</span>{" "}
           </p>
         </div>
       </div>
+      <Footer />
+    </>
+  );
+};
 
-      <div id="theme" className="mt-5 px-[12px]">
-        <div className=" mb-5">
-          <h1 className="mb-3 text-blue-800 md:text-4xl text-[25.5px]"> Conference Theme <span className=" text-[#000]"> &rarr;</span></h1>
-          <p className=" text-[15px] md:text-lg text-gray-700 mb-4 ">
-            The international conference on Advanced Computing and Emerging
-            Technologies (ACET-2024) will offer themes in the engineering
-            aspects of renewable energy and computing. The main aim of this
-            conference will be to provide an international premier forum for
-            the presentation of new advances and research results in the field
-            of Green Energy, Computing and security, sustainable development,
-            Artificial intelligence and Embedded Systems. 
-          </p>
-          <div className="text-[20px] sm:text-2xl text-[#000] mb-4 "> The focus area and tracks of the conference would be:</div>
-          <ul className=" text-[15px] sm:text-lg text-gray-700  sm:pl-6">
-            <li className=" flex gap-2 items-center mt-2">
-              <span className="font-[500]  text-[20px] sm:text-2xl text-[#000] whitespace-nowrap">Track 1:&nbsp;</span> Advances in Machine
-              Learning and Deep Learning
-            </li>
-            <li className=" flex   gap-2 items-center mt-2">
-              <span className="font-[500] text-[20px] sm:text-2xl text-[#000] whitespace-nowrap">Track 2:&nbsp;</span> Advances in Data
-              Science
-            </li>
-            <li className=" flex  gap-2 items-center mt-2">
-              <span className="font-[500] text-[20px] sm:text-2xl text-[#000] whitespace-nowrap">Track 3:&nbsp;</span> Applications of
-              Artificial Intelligence in Interdisciplinary areas
-            </li>
-            <li className=" flex  gap-2 items-center mt-2">
-              <span className="font-[500] text-[20px] sm:text-2xl text-[#000] whitespace-nowrap">Track 4:&nbsp;</span> High Performance
-              Computing
-            </li>
-            <li className="  flex  gap-2 items-center mt-2">
-              <span className="font-[500] text-[20px] sm:text-2xl text-[#000] whitespace-nowrap">Track 5:&nbsp;</span> Advances in
-              Communication and Networks
-            </li>
-            <li className="  flex  gap-2 items-center mt-2">
-              <span className="font-[500] text-[20px] sm:text-2xl text-[#000] whitespace-nowrap">Track 6:&nbsp;</span> Advanced Algorithms
-            </li>
-            <li className="  flex  gap-2 items-center mt-2">
-              <span className="font-[500] text-[20px] sm:text-2xl text-[#000] whitespace-nowrap">Track 7:&nbsp;</span> Teaching & Learning
-              Systems
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div> 
-    
-  
-    <Footer/>
-
-
- 
-
-
-    
-  </>
-  )
-}
-
-export default page
+export default page;
