@@ -37,7 +37,7 @@ const page = () => {
           <div className="text-base w-full lg:max-w-[380px]">
             <p className="text-[#FE508D] text-3xl mb-3 lg:my-2">About AKGEC</p>
             <img src="./aboutakgec.png" className="block lg:hidden w-full"></img>
-            <p className="my-6 font-thin lg:pr-10">
+            <p className="my-6 font-light lg:pr-10">
               Ajay Kumar Garg Engineering College (AKGEC), Ghaziabad, Uttar
               Pradesh is approved by AICTE and affiliated to Dr. A.P.J. Abdul
               Kalam Technical University, Lucknow. The college, established in
@@ -59,7 +59,7 @@ const page = () => {
               About Women in Power Conference
             </p>
             <img src="./grlPow.png" className="block lg:hidden w-full"></img>
-            <p className="my-6 font-thin lg:pr-10">
+            <p className="my-6 font-light lg:pr-10">
               The conference on Women in Power is driven by a profound
               motivation to acknowledge and celebrate the invaluable
               contributions of women in engineering, technology, research, and

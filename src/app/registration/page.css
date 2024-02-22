@@ -5,3 +5,8 @@ table,th, tr, td{
 th,td {
     padding: 10px;
   }
+  @media(max-width:639px){
+    th,td {
+        padding: 4px;
+      }
+}

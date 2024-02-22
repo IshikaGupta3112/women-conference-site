@@ -5,3 +5,9 @@ border:1px solid black;
 th, td{
 padding:8px;
 }
+
+@media(max-width:639px){
+    th,td {
+        padding: 2px;
+      }
+}
