@@ -4,8 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Footer = () => {
   return (
     <>
-    <div className=''>
-    <div className='flex px-10 sm:px-20 mt-6 py-4 border-t-2 border-gray items-center sm:items-start sm:justify-start sm:gap-20 md:gap-56 flex-col sm:flex-row'>
+    <div className='flex px-10 sm:px-20 py-4 border-t-2 border-gray items-center sm:items-start sm:justify-start sm:gap-20 md:gap-56 flex-col sm:flex-row'>
     <div className='sm:w-1/2 md:w-1/3'>
     <div className='flex gap-3'>
     <div>
@@ -30,7 +29,6 @@ const Footer = () => {
     <div className="border-t-2 border-gray"></div>
     <div className='text-xs sm:text-sm md:text-base d-flex align-items-center pt-2 pb-2 justify-content-center footer-bottom text-black'>
         Designed &amp; Developed by &nbsp;&nbsp; <img src='silogo.svg'/>&nbsp;&nbsp; <a href="https://silive.in" rel="noreferrer" className="no-underline" target="_blank"><span className='text-[#2499F9] text-xs sm:text-sm md:text-base'>SOFTWARE</span><span className="text-black text-xs sm:text-sm md:text-base"> INCUBATOR</span></a>
-    </div>
     </div>
     </>
   )

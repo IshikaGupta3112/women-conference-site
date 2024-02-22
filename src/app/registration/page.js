@@ -8,6 +8,7 @@ const page = () => {
     return (
         <div>
             <Header active="registration" />
+            <div className='min-h-[100vh]'>
             <div className="flex flex-col justify-center items-center p-10 gap-12">
             <div className="flex flex-col justify-center items-center sm:w-[90%] md:w-[70%]">
             <p className="text-[#FE508D] text-2xl">Important Dates</p>
@@ -113,6 +114,7 @@ excluding accommodation.</p>
             <td>0120-2790969</td>
             </tr>
             </table>
+            </div>
             </div>
             </div>
         <Footer />

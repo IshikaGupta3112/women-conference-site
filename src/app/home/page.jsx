@@ -6,6 +6,7 @@ const page = () => {
   return (
     <>
       <Header active="home" />
+      <div className='min-h-[100vh]'>
       <div
         className="bg-gradient-to-b from-[#FE508D25] to-[#D9D9D9
           0] flex justify-center items-center flex-col py-12"
@@ -108,6 +109,7 @@ const page = () => {
             <span className="text-[#F7366F]">bhargavavani@akgec.ac.in</span>{" "}
           </p>
         </div>
+      </div>
       </div>
       <Footer />
     </>

@@ -6,6 +6,7 @@ const Page = () => {
   return (
     <>
       <Header active="about" />
+      <div className="min-h-100[vh]">
       <div className="flex flex-col px-8 sm:px-20 py-6 gap-8">
         <div className="flex bg-[#FFF4F8] flex-col px-8 md:px-16 py-8 rounded-2xl gap-3">
           <p className="text-[#FE508D] text-2xl font-medium">About AKGEC</p>
@@ -63,6 +64,7 @@ const Page = () => {
  dynamic and vital domain of science and technology.
           </p>
         </div>
+      </div>
       </div>
       <Footer />
     </>
