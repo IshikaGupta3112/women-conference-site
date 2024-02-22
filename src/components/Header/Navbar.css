@@ -1,4 +1,4 @@
-@media(max-width: 930px) {
+@media(max-width: 1024px) {
     .nav-options{
         font-size: 12px !important;
     }    
@@ -16,12 +16,6 @@
     font-size: 14px;
 }
 
-@media(max-width: 870px) {
-    .name-heading{
-        font-size: 16px;
-    }
-}
-
 @media(min-width: 768px) {
     .active{
     border-bottom:2px solid #FE508D;
@@ -33,12 +27,5 @@
     .inactive:hover{
         color:#FE508D !important;
         border-bottom:2px solid #FE508D;
-    }
-}
-
-
-@media(max-width: 375px) {
-    .name-heading{
-        font-size: 14px;
     }
 }
