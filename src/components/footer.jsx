@@ -1,6 +1,7 @@
 import React from 'react'
 import "../app/globals.css"
 import "bootstrap/dist/css/bootstrap.min.css"; 
+import Link from 'next/link';
 const Footer = () => {
   return (
     <>
@@ -16,16 +17,20 @@ const Footer = () => {
     </div>
     </div>
     </div>
-    {/* <div className=''> */}
-    <ul className='flex flex-col gap-3 md:text-left'>
+     <ul className='sm:hidden flex flex-col gap-3 text-center'>
+     <Link href='/home' className='no-underline text-black'><li className='text-sm md:text-base'>Home</li></Link>
+     <Link href='/about' className='no-underline text-black'><li className='text-sm md:text-base'>About</li> </Link>
+     <Link href='/committee' className='no-underline text-black'><li className='text-sm md:text-base'>Committee</li> </Link>
+     <Link href='/speakers' className='no-underline text-black'><li className='text-sm md:text-base'>Keynote Speakers</li> </Link>
+    </ul>
+    <ul className='hidden sm:flex flex-col gap-3'>
      <li className='text-base md:text-lg font-medium'>Quick Links</li> 
-     <li className='text-sm md:text-base'>Home</li> 
-     <li className='text-sm md:text-base'>About</li> 
-     <li className='text-sm md:text-base'>Committee</li> 
-     <li className='text-sm md:text-base'>Keynote Speakers</li> 
+     <Link href='/home' className='no-underline text-black'><li className='text-sm md:text-base'>Home</li></Link>
+     <Link href='/about' className='no-underline text-black'><li className='text-sm md:text-base'>About</li> </Link>
+     <Link href='/committee' className='no-underline text-black'><li className='text-sm md:text-base'>Committee</li> </Link>
+     <Link href='/speakers' className='no-underline text-black'><li className='text-sm md:text-base'>Keynote Speakers</li> </Link>
     </ul>
     </div>
-    {/* </div> */}
     <div className="border-t-2 border-gray"></div>
     <div className='text-xs sm:text-sm md:text-base d-flex align-items-center pt-2 pb-2 justify-content-center footer-bottom text-black'>
         Designed &amp; Developed by &nbsp;&nbsp; <img src='silogo.svg'/>&nbsp;&nbsp; <a href="https://silive.in" rel="noreferrer" className="no-underline" target="_blank"><span className='text-[#2499F9] text-xs sm:text-sm md:text-base'>SOFTWARE</span><span className="text-black text-xs sm:text-sm md:text-base"> INCUBATOR</span></a>

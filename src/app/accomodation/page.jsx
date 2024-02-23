@@ -5,7 +5,7 @@ import Header from "../../components/Header/Header.js";
 const page = () => {
   return (
     <>
-      <Header active="call-for-paper" />
+      <Header active="accomodation" />
       <div className="min-h-[100vh]">
       <div className="flex flex-col justify-center items-center px-4 sm:px-10 md:px-20 lg:px-32 py-10">
         <p className="text-[#FE508D] text-2xl font-medium">Accomodation</p>
