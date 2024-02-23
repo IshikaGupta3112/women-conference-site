@@ -58,7 +58,7 @@ const page = () => {
       <p className="text-[#FE508D] text-xl lg:text-2xl font-medium">
      {selectedTrackname}
       </p>
-     <ul className="flex flex-col gap-2 text-sm lg:text-base">
+     <ul className="flex flex-col gap-2 text-sm lg:text-base list-disc">
      {tracklist.map((item)=><li>{item}</li>)}
       </ul>
       <div className="flex flex-col text-sm lg:text-base">
@@ -79,7 +79,7 @@ const page = () => {
       <p className="text-[#FE508D] text-xl lg:text-2xl font-medium">
      {selectedTopicname}
       </p>
-     <ul className="flex flex-col gap-2 text-sm lg:text-base ">
+     <ul className="flex flex-col gap-2 text-sm lg:text-base list-disc ">
      {topicList.map((item)=><li>{item}</li>)}
       </ul>
       </div>
@@ -95,7 +95,7 @@ const page = () => {
       <p className="text-[#FE508D] text-xl lg:text-2xl font-medium">
      {selectedGuidename}
       </p>
-     <ul className="flex flex-col gap-2 text-sm lg:text-base">
+     <ul className="flex flex-col gap-2 text-sm lg:text-base list-disc">
      {guideList.map((item)=><li>{item}</li>)}
       </ul>
       </div>
@@ -107,7 +107,7 @@ const page = () => {
       <p className="text-[#FE508D] text-xl lg:text-2xl font-medium">
      {selectedTrackname}
       </p>
-     <ul className="flex flex-col gap-2 text-sm lg:text-base">
+     <ul className="flex flex-col gap-2 text-sm lg:text-base list-disc">
      {tracklist.map((item)=><li>{item}</li>)}
       </ul>
       </div>
@@ -120,7 +120,7 @@ const page = () => {
       <p className="text-[#FE508D] text-xl lg:text-2xl font-medium">
      {selectedTopicname}
       </p>
-     <ul className="flex flex-col gap-2 text-sm lg:text-base">
+     <ul className="flex flex-col gap-2 text-sm lg:text-base list-disc">
      {topicList.map((item)=><li>{item}</li>)}
       </ul>
       </div>
@@ -128,7 +128,7 @@ const page = () => {
       <p className="text-[#FE508D] text-xl lg:text-2xl font-medium">
      {selectedGuidename}
       </p>
-     <ul style={{ listStyle: "disc" }} className="flex flex-col gap-2 text-sm lg:text-base">
+     <ul className="flex flex-col gap-2 text-sm lg:text-base list-disc">
      {guideList.map((item)=><li>{item}</li>)}
       </ul>
       </div>

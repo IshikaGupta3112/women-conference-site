@@ -16,8 +16,8 @@ const Footer = () => {
     </div>
     </div>
     </div>
-    <div className='sm:text-left'>
-    <ul className='flex flex-col gap-3'>
+    {/* <div className=''> */}
+    <ul className='flex flex-col gap-3 md:text-left'>
      <li className='text-base md:text-lg font-medium'>Quick Links</li> 
      <li className='text-sm md:text-base'>Home</li> 
      <li className='text-sm md:text-base'>About</li> 
@@ -25,7 +25,7 @@ const Footer = () => {
      <li className='text-sm md:text-base'>Keynote Speakers</li> 
     </ul>
     </div>
-    </div>
+    {/* </div> */}
     <div className="border-t-2 border-gray"></div>
     <div className='text-xs sm:text-sm md:text-base d-flex align-items-center pt-2 pb-2 justify-content-center footer-bottom text-black'>
         Designed &amp; Developed by &nbsp;&nbsp; <img src='silogo.svg'/>&nbsp;&nbsp; <a href="https://silive.in" rel="noreferrer" className="no-underline" target="_blank"><span className='text-[#2499F9] text-xs sm:text-sm md:text-base'>SOFTWARE</span><span className="text-black text-xs sm:text-sm md:text-base"> INCUBATOR</span></a>
