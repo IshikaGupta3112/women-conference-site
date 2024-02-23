@@ -17,13 +17,13 @@ function Navigationbar(props) {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(!expanded)} />
         <Navbar.Collapse id="responsive-navbar-nav" className={expanded ? 'show' : ''}>
           <Nav className={expanded ? 'flex-column py-2 border-t-2 gray justify-center items-center w-full pr-4 md:pr-1 lg:pr-8' : 'ml-auto pr-4 md:pr-1 lg:pr-8'}>
-          <Link href='/' className={props.active === 'home' ? 'activeLink active d-flex align-items-center px-[7px] lg:px-2' : 'inactiveLink inactive d-flex align-items-center px-[7px] lg:px-2'}>Home</Link>
-            <Link href='/about' className={props.active === 'about' ? 'active activeLink d-flex align-items-center px-[7px] lg:px-2' : 'inactiveLink inactive d-flex align-items-center px-[7px] lg:px-2'}>About</Link>
-            <Link href='/call-for-paper' className={props.active === 'call-for-paper' ? 'active activeLink d-flex align-items-center px-[7px] lg:px-2' : 'inactiveLink inactive d-flex align-items-center px-[7px] lg:px-2'}>Call for Paper & Activities</Link>
-            <Link href='/committee' className={props.active === 'committee' ? 'active activeLink d-flex align-items-center px-[7px] lg:px-2' : 'inactiveLink inactive d-flex align-items-center px-[7px] lg:px-2'}>Committee</Link>
-            <Link href='/speakers' className={props.active==='speakers'?'active activeLink d-flex align-items-center px-[7px] lg:px-2':'inactiveLink inactive d-flex align-items-center px-[7px] lg:px-2'}>Speakers</Link>
-            <Link href='/registration' className={props.active === 'registration' ? 'active activeLink d-flex align-items-center px-[7px] lg:px-2' : 'inactiveLink inactive d-flex align-items-center px-[7px] lg:px-2'}>Registration</Link>
-            <Link href='/accomodation' className={props.active === 'accomodation' ? 'active activeLink d-flex align-items-center px-[7px] lg:px-2' : 'inactiveLink inactive d-flex align-items-center px-[7px] lg:px-2'}>Accomodation</Link>
+          <Link href='/' className={props.active === 'home' ? 'activeLink active d-flex align-items-center mx-[7px] lg:mx-2' : 'inactiveLink inactive d-flex align-items-center mx-[7px] lg:mx-2'}>Home</Link>
+            <Link href='/about' className={props.active === 'about' ? 'active activeLink d-flex align-items-center mx-[7px] lg:mx-2' : 'inactiveLink inactive d-flex align-items-center mx-[7px] lg:mx-2'}>About</Link>
+            <Link href='/call-for-paper' className={props.active === 'call-for-paper' ? 'active activeLink d-flex align-items-center mx-[7px] lg:mx-2' : 'inactiveLink inactive d-flex align-items-center mx-[7px] lg:mx-2'}>Call for Paper & Activities</Link>
+            <Link href='/committee' className={props.active === 'committee' ? 'active activeLink d-flex align-items-center mx-[7px] lg:mx-2' : 'inactiveLink inactive d-flex align-items-center mx-[7px] lg:mx-2'}>Committee</Link>
+            <Link href='/speakers' className={props.active==='speakers'?'active activeLink d-flex align-items-center mx-[7px] lg:mx-2':'inactiveLink inactive d-flex align-items-center mx-[7px] lg:mx-2'}>Speakers</Link>
+            <Link href='/registration' className={props.active === 'registration' ? 'active activeLink d-flex align-items-center mx-[7px] lg:mx-2' : 'inactiveLink inactive d-flex align-items-center mx-[7px] lg:mx-2'}>Registration</Link>
+            <Link href='/accomodation' className={props.active === 'accomodation' ? 'active activeLink d-flex align-items-center mx-[7px] lg:mx-2' : 'inactiveLink inactive d-flex align-items-center mx-[7px] lg:mx-2'}>Accomodation</Link>
             </Nav>
         </Navbar.Collapse>
       </Navbar>
