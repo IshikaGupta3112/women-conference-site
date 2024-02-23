@@ -31,7 +31,7 @@ const page = () => {
             </tr>
             </table>
             </div>
-            <div className="flex flex-col justify-center items-center sm:w-[90%] gap-3">
+            <div className="flex flex-col justify-center items-center sm:w-[90%]">
             <p className="text-[#FE508D] text-2xl">Registration Fee</p>
             <table className="text-sm sm:text-base border-1 border-black">
             <tr className="border-1 border-black">
@@ -59,7 +59,7 @@ const page = () => {
             <td>Rs. 500/-</td>
             </tr>
             </table>
-            <p className="text-[#FE508D] font-normal md:w-[80%] lg:w-[55%] text-center">The registration fee covers the conference kit, meals, tea, and other related amenities,
+            <p className="text-[#FE508D] font-normal md:w-[80%] lg:w-[55%] text-center mt-2">The registration fee covers the conference kit, meals, tea, and other related amenities,
 excluding accommodation.</p>
             </div>
             <div className="flex flex-col justify-center items-center sm:w-[90%] md:w-[70%]">
