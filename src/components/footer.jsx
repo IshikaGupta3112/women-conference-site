@@ -21,14 +21,14 @@ const Footer = () => {
      <Link href='/home' className='no-underline text-black'><li className='text-sm md:text-base'>Home</li></Link>
      <Link href='/about' className='no-underline text-black'><li className='text-sm md:text-base'>About</li> </Link>
      <Link href='/committee' className='no-underline text-black'><li className='text-sm md:text-base'>Committee</li> </Link>
-     <Link href='/speakers' className='no-underline text-black'><li className='text-sm md:text-base'>Keynote Speakers</li> </Link>
+     <Link href='/speakers' className='no-underline text-black'><li className='text-sm md:text-base'>Speakers</li> </Link>
     </ul>
     <ul className='hidden sm:flex flex-col gap-3'>
      <li className='text-base md:text-lg font-medium'>Quick Links</li> 
      <Link href='/home' className='no-underline text-black'><li className='text-sm md:text-base'>Home</li></Link>
      <Link href='/about' className='no-underline text-black'><li className='text-sm md:text-base'>About</li> </Link>
      <Link href='/committee' className='no-underline text-black'><li className='text-sm md:text-base'>Committee</li> </Link>
-     <Link href='/speakers' className='no-underline text-black'><li className='text-sm md:text-base'>Keynote Speakers</li> </Link>
+     <Link href='/speakers' className='no-underline text-black'><li className='text-sm md:text-base'>Speakers</li> </Link>
     </ul>
     </div>
     <div className="border-t-2 border-gray"></div>

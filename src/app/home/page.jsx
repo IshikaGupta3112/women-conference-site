@@ -19,7 +19,7 @@ const page = () => {
             <span className="text-[#70307E]">Empowering</span> the Next Wave
           </p>
           <p className=" text-center text-base sm:text-lg md:text-xl">
-            The conference hosted by{" "}
+          The conference organized by Electrical and Electronics Department,{" "} 
             <span className="font-medium">
               Ajay Kumar Garg Engineering College, Ghaziabad
             </span>
