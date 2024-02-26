@@ -12,7 +12,7 @@ const page = () => {
             <div className="flex flex-col justify-center items-center px-6 py-10 sm:p-10 gap-12">
             <div className="flex flex-col justify-center items-center w-[100%] sm:w-[90%] md:w-[70%]">
             <p className="text-[#FE508D] text-2xl">Important Dates</p>
-            <table className="text-sm sm:text-base border-1 border-black">
+            <table className="text-sm sm:text-base">
             <tr>
             <td className="border-1 border-black">Paper and Poster Submission </td>
             <td >15th March 2024</td>

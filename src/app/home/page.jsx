@@ -29,7 +29,7 @@ const page = () => {
           <button className="bg-[#FE508D] text-white font-medium rounded-2xl px-5 py-3">
             Register &rarr;
           </button>
-          <img src="./homeBanner.svg" className="my-8"></img>
+          {/* <img src="./homeBanner.svg" className="my-8"></img> */}
         </div>
       </div>
       <div className="flex flex-col px-10 sm:px-32 py-8 gap-12">

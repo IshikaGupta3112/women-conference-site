@@ -13,23 +13,23 @@ const publicity=[
     },
     {
       name:"Ms. Ritika Singh",
-      desg:"(Student member)"
+      desg:"Student member"
     },
     {
       name:"Ms. Manya Aggarwal",
-      desg:"(Student member)"
+      desg:"Student member"
     },
     {
       name:"Mr. Siddharth Singh ",
-      desg:" (Student member)"
+      desg:" Student member"
     },
     {
       name:"Mr. Sameer Chhonker",
-      desg:"(Student member)"
+      desg:"Student member"
     },
     {
       name:"Mr Abhay Tripathi",
-      desg:"(Student member)"
+      desg:"Student member"
     },
   ]
   
@@ -44,35 +44,35 @@ const publicity=[
     },
     {
       name:"Ms. Aditi Rai ",
-      desg:"(student member)"
+      desg:"Student member"
     },
     {
       name:"Ms. Anvesha Pandey",
-      desg:"(Student member)"
+      desg:"Student member"
     },
     {
       name:"Ms. Manya Aggarwal",
-      desg:"(Student member)"
+      desg:"Student member"
     },
     {
       name:"Ms. Shatakshi ",
-      desg:" (Student member)"
+      desg:" Student member"
     },
     {
       name:"Mr. Om Goswami",
-      desg:"(Student member)"
+      desg:"Student member"
     },
     {
       name:"Mr. Rahul Gupta",
-      desg:"(Student member)"
+      desg:"Student member"
     },
     {
       name:"Mr. Rishabh Baranwal",
-      desg:"(Student member)"
+      desg:"Student member"
     },
     {
       name:"Mr. Saksham Dhingra",
-      desg:"(Student member)"
+      desg:"Student member"
     }
   ]
   
@@ -139,59 +139,59 @@ const publicity=[
     },
     {
       name:"Ms. Anvesha Pandey",
-      desg:"(student member)"
+      desg:"Student member"
     },
     {
       name:"Ms. Garima Pal",
-      desg:"(student member)"
+      desg:"Student member"
     },
     {
       name:"Ms. Kanak Gehlaut",
-      desg:"(student member)"
+      desg:"Student member"
     },
     {
       name:"Ms. Mansi Singh",
-      desg:"(student member)"
+      desg:"Student member"
     },
     {
       name:"Ms. Manya Aggarwal",
-      desg:"(student member)"
+      desg:"Student member"
     },
     {
       name:"Ms. Mehak Monga ",
-      desg:"(student member)"
+      desg:"Student member"
     },
     {
       name:"Ms. Muskan Gupta ",
-      desg:"(student member)"
+      desg:"Student member"
     },
     {
       name:"Ms. Stuti Srivastava",
-      desg:"(student member)"
+      desg:"Student member"
     },
     {
       name:"Mr. Abhishek Jaiswal",
-      desg:"(student member)"
+      desg:"Student member"
     },
     {
       name:"Mr. Aman Prakash Verma",
-      desg:"(student member)"
+      desg:"Student member"
     },
     {
       name:"Mr. Rahul Gupta",
-      desg:"(student member)"
+      desg:"Student member"
     },
     {
       name:"Mr. Rishabh Baranwal",
-      desg:"(student member)"
+      desg:"Student member"
     },
     {
       name:"Mr. Sameer Chhonkar ",
-      desg:"(student member)"
+      desg:"Student member"
     },
     {
       name:"Ms. Siddharth Singh",
-      desg:"(student member)"
+      desg:"Student member"
     },
   ]
 
