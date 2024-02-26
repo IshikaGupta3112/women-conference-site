@@ -9,10 +9,10 @@ function Navigationbar(props) {
     <>
     <Navbar collapseOnSelect expand="md" className='py-0 border-b-2 border-gray'>
         <Navbar.Brand className='py-3 pl-4 md:pl-1 lg:pl-8'>
-          <div className='flex items-center lg:gap-1'>
-          <Link href='/home'><img src="womenLogo.svg" className='w-[32px]' alt="Women in Power Logo" /></Link>
-          <p className='text-base md:text-sm lg:text-lg font-medium mb-0'>Women in Power</p>
-          </div>
+        <Link href='/home' className=' no-underline text-black'><div className='flex items-center lg:gap-1'>
+          <img src="womenLogo.svg" className='w-[32px]' alt="Women in Power Logo" />
+          <p className='text-base md:text-sm lg:text-lg font-medium mb-0 text-black'>Women in Power</p>
+          </div></Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(!expanded)} />
         <Navbar.Collapse id="responsive-navbar-nav" className={expanded ? 'show' : ''}>

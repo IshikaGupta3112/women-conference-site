@@ -15,7 +15,7 @@ const page = () => {
         <p className='text-lg sm:text-2xl font-bold'>Chief Patron</p>
         <table className='w-[100%] md:w-[90%] text-sm sm:text-base'>
         <tr className='border-1 border-black'>
-        <td className='border-1 border-black'>Dr. R.K. Agrawal</td>
+        <td className='border-1 border-black w-[40%]'>Dr. R.K. Agrawal</td>
         <td className='border-1 border-black'>Director General, AKGEC, Ghaziabad</td>
         </tr>
         </table>
@@ -24,7 +24,7 @@ const page = () => {
         <p className='text-lg sm:text-2xl font-bold'>Convener</p>
         <table className='  w-[100%] md:w-[90%] text-sm sm:text-base'>
         <tr className='border-1 border-black'>
-        <td className='border-1 border-black'>Dr. Hemant Ahuja</td>
+        <td className='border-1 border-black w-[40%]'>Dr. Hemant Ahuja</td>
         <td className='border-1 border-black'>Director, AKGEC, Ghaziabad</td>
         </tr>
         </table>
@@ -33,7 +33,7 @@ const page = () => {
         <p className='text-lg sm:text-2xl font-bold'>Co-ordinator</p>
         <table className='  w-[100%] md:w-[90%] text-sm sm:text-base'>
         <tr className='border-1 border-black'>
-        <td className='border-1 border-black'>Dr. Vani Bhargava</td>
+        <td className='border-1 border-black w-[40%]'>Dr. Vani Bhargava</td>
         <td className='border-1 border-black'>Associate Professor, EN, AKGEC Ghaziabad</td>
         </tr>
         </table>
@@ -43,7 +43,7 @@ const page = () => {
         <table className='  w-[100%] md:w-[90%] text-sm sm:text-base'>
         {publicity.map((item)=>
         <tr className='border-1 border-black'>
-        <td className='border-1 border-black'>{item.name}</td>
+        <td className='border-1 border-black w-[40%]'>{item.name}</td>
         <td className='border-1 border-black'>{item.desg}</td>
         </tr>
         )}
@@ -54,7 +54,7 @@ const page = () => {
         <table className='  w-[100%] md:w-[90%] text-sm sm:text-base'>
         {studentAct.map((item)=>
         <tr className='border-1 border-black'>
-        <td className='border-1 border-black'>{item.name}</td>
+        <td className='border-1 border-black w-[40%]'>{item.name}</td>
         <td className='border-1 border-black'>{item.desg}</td>
         </tr>
         )}
@@ -62,11 +62,11 @@ const page = () => {
         </div>
         <div className='w-[100%] flex flex-col justify-center items-center '>
         <p className='text-lg sm:text-2xl  font-bold'>Hospitality Committee</p>
-        <table className='   w-[100%] md:w-[90%] text-sm sm:text-base'>
+        <table className='border-1 border-black w-[100%] md:w-[90%] text-sm sm:text-base'>
         {hospitality.map((item)=>
-        <tr className=' '>
-        <td className=' '>{item.name}</td>
-        <td className=' '>{item.desg}</td>
+        <tr className='border-1 border-black'>
+        <td className='border-1 border-black w-[40%]'>{item.name}</td>
+        <td className='border-1 border-black '>{item.desg}</td>
         </tr>
         )}
         </table>

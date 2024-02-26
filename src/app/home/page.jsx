@@ -10,7 +10,7 @@ const page = () => {
       <div className='min-h-[100vh]'>
       <div
         className="bg-gradient-to-b from-[#70307E25] to-[#D9D9D9
-          0] flex justify-center items-center flex-col py-12"
+          0] flex justify-center items-center flex-col py-2"
       >
         <img src="./homeBanner.svg" className="my-8 w-[82%]"></img>
         <div className="w-[70%] md:w-[68%] flex flex-col justify-center items-center gap-4">
@@ -33,7 +33,7 @@ const page = () => {
           </button>
         </div>
       </div>
-      <div className="flex flex-col px-10 sm:px-32 py-8 gap-12">
+      <div className="flex flex-col px-10 sm:px-28 py-8 gap-12">
         <div className="flex bg-[#70307E10] rounded-2xl px-8 py-4 lg:px-16 lg:py-10 justify-between items-center">
           <div className="text-base w-full lg:max-w-[380px]">
             <p className="text-[#70307E] text-3xl mb-3 lg:my-2">About AKGEC</p>
