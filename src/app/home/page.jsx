@@ -2,6 +2,7 @@
 import React from "react";
 import Footer from "../../components/footer.jsx";
 import Header from "../../components/Header/Header.js";
+import Link from "next/link.js";
 const page = () => {
   return (
     <>
@@ -11,6 +12,7 @@ const page = () => {
         className="bg-gradient-to-b from-[#70307E25] to-[#D9D9D9
           0] flex justify-center items-center flex-col py-12"
       >
+        <img src="./homeBanner.svg" className="my-8 w-[82%]"></img>
         <div className="w-[70%] md:w-[68%] flex flex-col justify-center items-center gap-4">
           <p className=" text-center text-2xl sm:text-3xl md:text-4xl sm:leading-normal md:leading-relaxed">
             Catalysing Change : Women{" "}
@@ -27,9 +29,8 @@ const page = () => {
             </span>
           </p>
           <button className="bg-[#70307E] text-white font-medium rounded-2xl px-5 py-3">
-            Register &rarr;
+          <Link href='/registration' className="no-underline text-white">Register &rarr;</Link>
           </button>
-          {/* <img src="./homeBanner.svg" className="my-8"></img> */}
         </div>
       </div>
       <div className="flex flex-col px-10 sm:px-32 py-8 gap-12">
@@ -37,7 +38,7 @@ const page = () => {
           <div className="text-base w-full lg:max-w-[380px]">
             <p className="text-[#70307E] text-3xl mb-3 lg:my-2">About AKGEC</p>
             <img src="./aboutakgec.png" className="block lg:hidden w-full"></img>
-            <p className="my-6 font-light lg:pr-10">
+            <p className="my-6 font-light lg:pr-10 text-justify">
               Ajay Kumar Garg Engineering College (AKGEC), Ghaziabad, Uttar
               Pradesh is approved by AICTE and affiliated to Dr. A.P.J. Abdul
               Kalam Technical University, Lucknow. The college, established in
@@ -46,7 +47,7 @@ const page = () => {
               in Computer Application...
             </p>
             <button className="border-[#70307E] border-1 rounded p-2">
-              read more &rarr;
+              <Link href='/about' className="no-underline text-black">Read more &rarr;</Link>
             </button>
           </div>
           <div>
@@ -59,7 +60,7 @@ const page = () => {
               About Women in Power Conference
             </p>
             <img src="./grlPow.png" className="block lg:hidden w-full"></img>
-            <p className="my-6 font-light lg:pr-10">
+            <p className="my-6 font-light lg:pr-10 text-justify">
               The conference on Women in Power is driven by a profound
               motivation to acknowledge and celebrate the invaluable
               contributions of women in engineering, technology, research, and
@@ -68,7 +69,7 @@ const page = () => {
               impact the women have had on the industry, academics. ...
             </p>
             <button className="border-[#70307E] border-1 rounded p-2">
-              read more &rarr;
+              <Link href='/about' className="no-underline text-black">Read more &rarr;</Link>
             </button>
           </div>
           <div>

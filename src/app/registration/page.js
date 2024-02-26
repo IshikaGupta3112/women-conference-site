@@ -67,11 +67,11 @@ excluding accommodation.</p>
             <table className="text-sm sm:text-base border-1 border-black">
             <tr className="border-1 border-black">
             <td className="border-1 border-black">For Student Participants</td>
-            <td ><a href="https://forms.gle/aBk5gaYnjmXjEiM97">Form Link</a></td>
+            <td ><a href="https://forms.gle/aBk5gaYnjmXjEiM97" className="underline text-[#70307E]" target='_blank'>Form Link</a></td>
             </tr>
             <tr className="border-1 border-black">
-            <td className="border-1 border-black">Acceptance Notification</td>
-            <td><a href="https://forms.gle/NDsnxrNg6883Sv1L7">Form Link</a></td>
+            <td className="border-1 border-black">Delegate Registration</td>
+            <td><a href="https://forms.gle/NDsnxrNg6883Sv1L7" className="underline text-[#70307E]" target='_blank'>Form Link</a></td>
             </tr>
             </table>
             </div>

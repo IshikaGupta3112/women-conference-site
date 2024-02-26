@@ -9,8 +9,8 @@ function Navigationbar(props) {
     <>
     <Navbar collapseOnSelect expand="md" className='py-0 border-b-2 border-gray'>
         <Navbar.Brand className='py-3 pl-4 md:pl-1 lg:pl-8'>
-          <div className='flex lg:gap-1'>
-          <img src="womenLogo.svg" className='h-[22px] w-[22px] lg:h-[32px] lg:w-[32px]' alt="Women in Power Logo" />
+          <div className='flex items-center lg:gap-1'>
+          <img src="womenLogo.svg" className='w-[32px]' alt="Women in Power Logo" />
           <p className='text-base md:text-sm lg:text-lg font-medium mb-0'>Women in Power</p>
           </div>
         </Navbar.Brand>

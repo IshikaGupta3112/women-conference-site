@@ -16,8 +16,6 @@ const page = () => {
   const [selectedGuide, setSelectedGuide] = useState("11");
   const [selectedGuidename, setSelectedGuidename] = useState(guidelines[0].name);
   const [guideList, setGuideList] = useState(guidelines[0].list);
-  // const [guideHead, setGuideList] = useState(guidelines[0].list);
-  // const [guideCo, setGuideList] = useState(guidelines[0].list);
 
   const handleTrackClick = (option) => {
     setSelectedTrack(option);
@@ -47,7 +45,7 @@ const page = () => {
       <div className="w-[100%] border-r-2 border-gray  p-4">
         <div className="flex flex-col gap-4">
         <div className="flex flex-col justify-center items-left px-2 ">
-          <p className="text-[#70307E] text-base lg:text-xl font-medium">Paper tracks</p>
+          <p className="text-[#70307E] text-xl lg:text-2xl font-medium">Paper Tracks</p>
           {paperTracks.map((item) => (
             <div onClick={() =>handleTrackClick(item.id)} className={`text-sm lg:text-base w-[100%] rounded-xl p-3 my-2 cursor-pointer ${selectedTrack === item.id ? 'bg-[#70307E] text-white' : 'bg-[#F5F5F5] text-black'}`} >
               {item.id}. {item.name}
@@ -55,10 +53,10 @@ const page = () => {
           ))}
         </div>
         <div className="flex flex-col py-4 gap-2 md:hidden">
-      <p className="text-[#70307E] text-xl lg:text-2xl font-medium">
+      <p className="text-[#70307E] text-base lg:text-xl font-medium">
      {selectedTrackname}
       </p>
-     <ul className="flex flex-col gap-2 text-sm lg:text-base list-disc">
+     <ul style={{ listStyle: 'disc' }} className="flex flex-col gap-2 text-sm lg:text-base list-disc">
      {tracklist.map((item)=><li>{item}</li>)}
       </ul>
       <div className="flex flex-col text-sm lg:text-base">
@@ -68,7 +66,7 @@ const page = () => {
       </div>
       </div>
         <div className="flex flex-col justify-center items-left px-2">
-          <p className="text-[#70307E] text-base lg:text-xl font-medium">Topics & Themes</p>
+          <p className="text-[#70307E] text-xl lg:text-2xl font-medium">Topics & Themes</p>
           {topics.map((item) => (
             <div onClick={() => handleTopicClick(item.id)} className={`text-sm lg:text-base w-[100%] rounded-xl p-3 my-2 cursor-pointer ${selectedTopic === item.id ? 'bg-[#70307E] text-white' : 'bg-[#F5F5F5] text-black'}`} >
               {item.name}
@@ -76,15 +74,15 @@ const page = () => {
           ))}
         </div>
         <div className="md:hidden flex flex-col py-4 gap-2">
-      <p className="text-[#70307E] text-xl lg:text-2xl font-medium">
+      <p className="text-[#70307E] text-base lg:text-xl font-medium">
      {selectedTopicname}
       </p>
-     <ul className="flex flex-col gap-2 text-sm lg:text-base list-disc ">
+     <ul style={{ listStyle: 'disc' }} className="flex flex-col gap-2 text-sm lg:text-base list-disc ">
      {topicList.map((item)=><li>{item}</li>)}
       </ul>
       </div>
         <div className="flex flex-col justify-center items-left px-2">
-          <p className="text-[#70307E] text-base lg:text-xl font-medium" >Guidelines</p>
+          <p className="text-[#70307E] text-xl lg:text-2xl font-medium" >Guidelines</p>
           {guidelines.map((item) => (
             <div  onClick={() => handleGuideClick(item.id)} className={`text-sm lg:text-base w-[100%] rounded-xl p-3 my-2 cursor-pointer ${selectedGuide === item.id ? 'bg-[#70307E] text-white' : 'bg-[#F5F5F5] text-black'}`}>
               {item.name}
@@ -92,10 +90,10 @@ const page = () => {
           ))}
         </div>
         <div className="md:hidden flex flex-col py-4 gap-2">
-      <p className="text-[#70307E] text-xl lg:text-2xl font-medium">
+      <p className="text-[#70307E] text-base lg:text-xl font-medium">
      {selectedGuidename}
       </p>
-     <ul className="flex flex-col gap-2 text-sm lg:text-base list-disc">
+     <ul style={{ listStyle: 'disc' }} className="flex flex-col gap-2 text-sm lg:text-base list-disc">
      {guideList.map((item)=><li>{item}</li>)}
       </ul>
       </div>
@@ -104,10 +102,10 @@ const page = () => {
       </div>
       <div className="hidden md:flex flex-col md:h-screen md:overflow-y-auto md:w-[60%] scrollBar md:p-0">
       <div className="flex flex-col py-4 gap-2">
-      <p className="text-[#70307E] text-xl lg:text-2xl font-medium">
+      <p className="text-[#70307E] text-base lg:text-xl font-medium">
      {selectedTrackname}
       </p>
-     <ul className="flex flex-col gap-2 text-sm lg:text-base list-disc">
+     <ul style={{ listStyle: 'disc' }} className="flex flex-col gap-2 text-sm lg:text-base list-disc">
      {tracklist.map((item)=><li>{item}</li>)}
       </ul>
       </div>
@@ -117,18 +115,18 @@ const page = () => {
       <a href='https://www.ieee.org/conferences/publishing/templates.html'>Link</a>
       </div>
       <div className="hidden md:flex flex-col py-4 gap-2 ">
-      <p className="text-[#70307E] text-xl lg:text-2xl font-medium">
+      <p className="text-[#70307E] text-base lg:text-xl font-medium">
      {selectedTopicname}
       </p>
-     <ul className="flex flex-col gap-2 text-sm lg:text-base list-disc">
+     <ul style={{ listStyle: 'disc' }} className="flex flex-col gap-2 text-sm lg:text-base list-disc">
      {topicList.map((item)=><li>{item}</li>)}
       </ul>
       </div>
       <div className="hidden md:flex flex-col py-4 gap-2">
-      <p className="text-[#70307E] text-xl lg:text-2xl font-medium">
+      <p className="text-[#70307E] text-base lg:text-xl font-medium">
      {selectedGuidename}
       </p>
-     <ul className="flex flex-col gap-2 text-sm lg:text-base list-disc">
+     <ul style={{ listStyle: 'disc' }} className="flex flex-col gap-2 text-sm lg:text-base list-disc">
      {guideList.map((item)=><li>{item}</li>)}
       </ul>
       </div>
