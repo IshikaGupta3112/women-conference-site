@@ -11,7 +11,7 @@ const page = () => {
             <div className='min-h-[100vh]'>
             <div className="flex flex-col justify-center items-center px-6 py-10 sm:p-10 gap-12">
             <div className="flex flex-col justify-center items-center w-[100%] sm:w-[90%] md:w-[70%]">
-            <p className="text-[#FE508D] text-2xl">Important Dates</p>
+            <p className="text-[#70307E] text-2xl">Important Dates</p>
             <table className="text-sm sm:text-base">
             <tr>
             <td className="border-1 border-black">Paper and Poster Submission </td>
@@ -32,7 +32,7 @@ const page = () => {
             </table>
             </div>
             <div className="flex flex-col justify-center items-center sm:w-[90%]">
-            <p className="text-[#FE508D] text-2xl">Registration Fee</p>
+            <p className="text-[#70307E] text-2xl">Registration Fee</p>
             <table className="text-sm sm:text-base border-1 border-black">
             <tr className="border-1 border-black">
             <th className="border-1 border-black">Registration category</th>
@@ -59,11 +59,11 @@ const page = () => {
             <td>Rs. 500/-</td>
             </tr>
             </table>
-            <p className="text-[#FE508D] font-normal md:w-[80%] lg:w-[55%] text-center mt-2">The registration fee covers the conference kit, meals, tea, and other related amenities,
+            <p className="text-[#70307E] font-normal md:w-[80%] lg:w-[55%] text-center mt-2">The registration fee covers the conference kit, meals, tea, and other related amenities,
 excluding accommodation.</p>
             </div>
             <div className="flex flex-col justify-center items-center sm:w-[90%] md:w-[70%]">
-            <p className="text-[#FE508D] text-2xl">Registration Links</p>
+            <p className="text-[#70307E] text-2xl">Registration Links</p>
             <table className="text-sm sm:text-base border-1 border-black">
             <tr className="border-1 border-black">
             <td className="border-1 border-black">For Student Participants</td>
@@ -76,7 +76,7 @@ excluding accommodation.</p>
             </table>
             </div>
             <div className="flex flex-col justify-center items-center sm:w-[90%] md:w-[70%]">
-            <p className="text-[#FE508D] text-2xl">Payment Details</p>
+            <p className="text-[#70307E] text-2xl">Payment Details</p>
             <table className="text-sm sm:text-base border-1 border-black">
             <tr>
             <th colSpan={2} className="text-center">Details of IMPS/UPI/RTGS/NEFT:</th>

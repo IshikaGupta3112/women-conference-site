@@ -47,15 +47,15 @@ const page = () => {
       <div className="w-[100%] border-r-2 border-gray  p-4">
         <div className="flex flex-col gap-4">
         <div className="flex flex-col justify-center items-left px-2 ">
-          <p className="text-[#FE508D] text-base lg:text-xl font-medium">Paper tracks</p>
+          <p className="text-[#70307E] text-base lg:text-xl font-medium">Paper tracks</p>
           {paperTracks.map((item) => (
-            <div onClick={() =>handleTrackClick(item.id)} className={`text-sm lg:text-base w-[100%] rounded-xl p-3 my-2 cursor-pointer ${selectedTrack === item.id ? 'bg-[#FE508D] text-white' : 'bg-[#F5F5F5] text-black'}`} >
+            <div onClick={() =>handleTrackClick(item.id)} className={`text-sm lg:text-base w-[100%] rounded-xl p-3 my-2 cursor-pointer ${selectedTrack === item.id ? 'bg-[#70307E] text-white' : 'bg-[#F5F5F5] text-black'}`} >
               {item.id}. {item.name}
             </div>
           ))}
         </div>
         <div className="flex flex-col py-4 gap-2 md:hidden">
-      <p className="text-[#FE508D] text-xl lg:text-2xl font-medium">
+      <p className="text-[#70307E] text-xl lg:text-2xl font-medium">
      {selectedTrackname}
       </p>
      <ul className="flex flex-col gap-2 text-sm lg:text-base list-disc">
@@ -68,15 +68,15 @@ const page = () => {
       </div>
       </div>
         <div className="flex flex-col justify-center items-left px-2">
-          <p className="text-[#FE508D] text-base lg:text-xl font-medium">Topics & Themes</p>
+          <p className="text-[#70307E] text-base lg:text-xl font-medium">Topics & Themes</p>
           {topics.map((item) => (
-            <div onClick={() => handleTopicClick(item.id)} className={`text-sm lg:text-base w-[100%] rounded-xl p-3 my-2 cursor-pointer ${selectedTopic === item.id ? 'bg-[#FE508D] text-white' : 'bg-[#F5F5F5] text-black'}`} >
+            <div onClick={() => handleTopicClick(item.id)} className={`text-sm lg:text-base w-[100%] rounded-xl p-3 my-2 cursor-pointer ${selectedTopic === item.id ? 'bg-[#70307E] text-white' : 'bg-[#F5F5F5] text-black'}`} >
               {item.name}
             </div>
           ))}
         </div>
         <div className="md:hidden flex flex-col py-4 gap-2">
-      <p className="text-[#FE508D] text-xl lg:text-2xl font-medium">
+      <p className="text-[#70307E] text-xl lg:text-2xl font-medium">
      {selectedTopicname}
       </p>
      <ul className="flex flex-col gap-2 text-sm lg:text-base list-disc ">
@@ -84,15 +84,15 @@ const page = () => {
       </ul>
       </div>
         <div className="flex flex-col justify-center items-left px-2">
-          <p className="text-[#FE508D] text-base lg:text-xl font-medium" >Guidelines</p>
+          <p className="text-[#70307E] text-base lg:text-xl font-medium" >Guidelines</p>
           {guidelines.map((item) => (
-            <div  onClick={() => handleGuideClick(item.id)} className={`text-sm lg:text-base w-[100%] rounded-xl p-3 my-2 cursor-pointer ${selectedGuide === item.id ? 'bg-[#FE508D] text-white' : 'bg-[#F5F5F5] text-black'}`}>
+            <div  onClick={() => handleGuideClick(item.id)} className={`text-sm lg:text-base w-[100%] rounded-xl p-3 my-2 cursor-pointer ${selectedGuide === item.id ? 'bg-[#70307E] text-white' : 'bg-[#F5F5F5] text-black'}`}>
               {item.name}
             </div>
           ))}
         </div>
         <div className="md:hidden flex flex-col py-4 gap-2">
-      <p className="text-[#FE508D] text-xl lg:text-2xl font-medium">
+      <p className="text-[#70307E] text-xl lg:text-2xl font-medium">
      {selectedGuidename}
       </p>
      <ul className="flex flex-col gap-2 text-sm lg:text-base list-disc">
@@ -104,7 +104,7 @@ const page = () => {
       </div>
       <div className="hidden md:flex flex-col md:h-screen md:overflow-y-auto md:w-[60%] scrollBar md:p-0">
       <div className="flex flex-col py-4 gap-2">
-      <p className="text-[#FE508D] text-xl lg:text-2xl font-medium">
+      <p className="text-[#70307E] text-xl lg:text-2xl font-medium">
      {selectedTrackname}
       </p>
      <ul className="flex flex-col gap-2 text-sm lg:text-base list-disc">
@@ -117,7 +117,7 @@ const page = () => {
       <a href='https://www.ieee.org/conferences/publishing/templates.html'>Link</a>
       </div>
       <div className="hidden md:flex flex-col py-4 gap-2 ">
-      <p className="text-[#FE508D] text-xl lg:text-2xl font-medium">
+      <p className="text-[#70307E] text-xl lg:text-2xl font-medium">
      {selectedTopicname}
       </p>
      <ul className="flex flex-col gap-2 text-sm lg:text-base list-disc">
@@ -125,7 +125,7 @@ const page = () => {
       </ul>
       </div>
       <div className="hidden md:flex flex-col py-4 gap-2">
-      <p className="text-[#FE508D] text-xl lg:text-2xl font-medium">
+      <p className="text-[#70307E] text-xl lg:text-2xl font-medium">
      {selectedGuidename}
       </p>
      <ul className="flex flex-col gap-2 text-sm lg:text-base list-disc">

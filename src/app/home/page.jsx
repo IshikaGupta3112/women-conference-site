@@ -8,13 +8,13 @@ const page = () => {
       <Header active="home" />
       <div className='min-h-[100vh]'>
       <div
-        className="bg-gradient-to-b from-[#FE508D25] to-[#D9D9D9
+        className="bg-gradient-to-b from-[#70307E25] to-[#D9D9D9
           0] flex justify-center items-center flex-col py-12"
       >
         <div className="w-[70%] md:w-[68%] flex flex-col justify-center items-center gap-4">
           <p className=" text-center text-2xl sm:text-3xl md:text-4xl sm:leading-normal md:leading-relaxed">
             Catalysing Change : Women{" "}
-            <span className="text-[#FE508D]">Empowering</span> the Next Wave
+            <span className="text-[#70307E]">Empowering</span> the Next Wave
           </p>
           <p className=" text-center text-base sm:text-lg md:text-xl">
             The conference hosted by{" "}
@@ -22,20 +22,20 @@ const page = () => {
               Ajay Kumar Garg Engineering College, Ghaziabad
             </span>
             , will be held in offline  mode from{" "}
-            <span className="text-[#FE508D] font-medium">
+            <span className="text-[#70307E] font-medium">
               12-13th April 2024.
             </span>
           </p>
-          <button className="bg-[#FE508D] text-white font-medium rounded-2xl px-5 py-3">
+          <button className="bg-[#70307E] text-white font-medium rounded-2xl px-5 py-3">
             Register &rarr;
           </button>
           {/* <img src="./homeBanner.svg" className="my-8"></img> */}
         </div>
       </div>
       <div className="flex flex-col px-10 sm:px-32 py-8 gap-12">
-        <div className="flex bg-[#FFF4F8] rounded-2xl px-8 py-4 lg:px-16 lg:py-10 justify-between items-center">
+        <div className="flex bg-[#70307E10] rounded-2xl px-8 py-4 lg:px-16 lg:py-10 justify-between items-center">
           <div className="text-base w-full lg:max-w-[380px]">
-            <p className="text-[#FE508D] text-3xl mb-3 lg:my-2">About AKGEC</p>
+            <p className="text-[#70307E] text-3xl mb-3 lg:my-2">About AKGEC</p>
             <img src="./aboutakgec.png" className="block lg:hidden w-full"></img>
             <p className="my-6 font-light lg:pr-10">
               Ajay Kumar Garg Engineering College (AKGEC), Ghaziabad, Uttar
@@ -45,7 +45,7 @@ const page = () => {
               twelve disciplines. The college also offers postgraduate programs
               in Computer Application...
             </p>
-            <button className="border-[#FE508D] border-1 rounded p-2">
+            <button className="border-[#70307E] border-1 rounded p-2">
               read more &rarr;
             </button>
           </div>
@@ -53,9 +53,9 @@ const page = () => {
             <img src="./aboutakgec.png" className="hidden lg:block"></img>
           </div>
         </div>
-        <div className="flex bg-[#FFF4F8] rounded-2xl px-8 py-4 lg:px-16 lg:py-10 justify-between items-center">
+        <div className="flex bg-[#70307E10] rounded-2xl px-8 py-4 lg:px-16 lg:py-10 justify-between items-center">
           <div className="text-base w-full lg:max-w-[380px]">
-            <p className="text-[#FE508D] text-3xl mb-3 lg:my-2">
+            <p className="text-[#70307E] text-3xl mb-3 lg:my-2">
               About Women in Power Conference
             </p>
             <img src="./grlPow.png" className="block lg:hidden w-full"></img>
@@ -67,7 +67,7 @@ const page = () => {
               the conference seeks to amplify awareness of the substantial
               impact the women have had on the industry, academics. ...
             </p>
-            <button className="border-[#FE508D] border-1 rounded p-2">
+            <button className="border-[#70307E] border-1 rounded p-2">
               read more &rarr;
             </button>
           </div>
@@ -79,7 +79,7 @@ const page = () => {
       <div className="flex justify-center items-center flex-col py-12">
         <div className="w-[80%] lg:w-[62%] flex flex-col gap-10">
           <div className="flex flex-col justify-center items-center gap-2 px-2 md:px-8 xl:px-20">
-            <p className="text-[#FE508D] text-xl sm:text-2xl md:text-3xl font-medium">
+            <p className="text-[#70307E] text-xl sm:text-2xl md:text-3xl font-medium">
               Call for Participation
             </p>
             <p className="text-center text-base sm:text-lg md:text-xl">
@@ -87,16 +87,16 @@ const page = () => {
               following competitive activities:
             </p>
             <div className="flex flex-col w-full sm:flex-row sm:flex-wrap justify-center items-center mt-2 gap-6">
-              <span className="border-1 border-[#FF8AAC] rounded w-full text-center sm:w-auto py-3 px-4 text-base sm:text-lg md:text-xl">
+              <span className="border-1 border-[#70307E] rounded w-full text-center sm:w-auto py-3 px-4 text-base sm:text-lg md:text-xl">
                 Paper Presentation
               </span>
-              <span className="border-1 border-[#FF8AAC] rounded w-full text-center sm:w-auto py-3 px-4 text-base  sm:text-lg md:text-xl">
+              <span className="border-1 border-[#70307E] rounded w-full text-center sm:w-auto py-3 px-4 text-base  sm:text-lg md:text-xl">
                 Poster Presentations
               </span>
-              <span className="border-1 border-[#FF8AAC] rounded w-full text-center sm:w-auto py-3 px-4 text-base sm:text-lg md:text-xl">
+              <span className="border-1 border-[#70307E] rounded w-full text-center sm:w-auto py-3 px-4 text-base sm:text-lg md:text-xl">
                 Debate
               </span>
-              <span className="border-1 border-[#FF8AAC] rounded w-full text-center sm:w-auto py-3 px-4 text-base sm:text-lg md:text-xl">
+              <span className="border-1 border-[#70307E] rounded w-full text-center sm:w-auto py-3 px-4 text-base sm:text-lg md:text-xl">
                 Rangoli Making Competetion
               </span>
             </div>
@@ -104,9 +104,9 @@ const page = () => {
           <p className="text-sm sm:text-base md:text-lg text-center">
             For submission, please send the paper and poster to the following
             email address:{" "}
-            <span className="text-[#F7366F]">eee.events@akgec.ac.in</span> with
+            <span className="text-[#70307E]">eee.events@akgec.ac.in</span> with
             CC to{" "}
-            <span className="text-[#F7366F]">bhargavavani@akgec.ac.in</span>{" "}
+            <span className="text-[#70307E]">bhargavavani@akgec.ac.in</span>{" "}
           </p>
         </div>
       </div>

@@ -5,20 +5,20 @@
 }
 
 .activeLink{
-    color:#FE508D !important;
+    color:#70307E !important;
     text-decoration:none;
     font-size: 14px;
 }
 .active{
-    border-bottom:2px solid #FE508D;
+    border-bottom:2px solid #70307E;
     }
     .active:hover{
-        color:#FE508D !important;
-        border-bottom:2px solid #FE508D;
+        color:#70307E !important;
+        border-bottom:2px solid #70307E;
     } 
     .inactive:hover{
-        color:#FE508D !important;
-        border-bottom:2px solid #FE508D;
+        color:#70307E !important;
+        border-bottom:2px solid #70307E;
     }
 
 @media(max-width: 1023px) {

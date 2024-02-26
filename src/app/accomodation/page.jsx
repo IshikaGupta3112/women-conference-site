@@ -8,7 +8,7 @@ const page = () => {
       <Header active="accomodation" />
       <div className="min-h-[100vh]">
       <div className="flex flex-col justify-center items-center px-4 sm:px-10 md:px-20 lg:px-32 py-10">
-        <p className="text-[#FE508D] text-2xl font-medium">Accomodation</p>
+        <p className="text-[#70307E] text-2xl font-medium">Accomodation</p>
         <p className="text-sm sm:text-base lg:text-lg">
           Delegates from Academia & Industry can choose to stay on-campus (in
           the Visitor Guest House) with lodging options for up to 12

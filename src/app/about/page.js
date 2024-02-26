@@ -8,8 +8,8 @@ const Page = () => {
       <Header active="about" />
       <div className="min-h-100[vh]">
       <div className="flex flex-col px-8 sm:px-20 py-6 gap-8">
-        <div className="flex bg-[#FFF4F8] flex-col px-4 sm:px-8 md:px-16 py-4 sm:py-8 rounded-2xl gap-3">
-          <p className="text-[#FE508D] text-xl sm:text-2xl font-medium">About AKGEC</p>
+        <div className="flex bg-[#70307E10] flex-col px-4 sm:px-8 md:px-16 py-4 sm:py-8 rounded-2xl gap-3">
+          <p className="text-[#70307E] text-xl sm:text-2xl font-medium">About AKGEC</p>
           <img src="./akg.png"></img>
           <p className="text-sm sm:text-base">
             Ajay Kumar Garg Engineering College (AKGEC), Ghaziabad, Uttar
@@ -38,8 +38,8 @@ const Page = () => {
             consultancy.
           </p>
         </div>
-        <div className="flex bg-[#FFF4F8] flex-col px-4 sm:px-8 md:px-16 py-4 sm:py-8 rounded-2xl gap-3">
-          <p className="text-[#FE508D] text-xl sm:text-2xl font-medium">About Women in Power Conference</p>
+        <div className="flex bg-[#70307E10] flex-col px-4 sm:px-8 md:px-16 py-4 sm:py-8 rounded-2xl gap-3">
+          <p className="text-[#70307E] text-xl sm:text-2xl font-medium">About Women in Power Conference</p>
           <img src="./girlpower.png"></img>
           <p className="text-sm sm:text-base">
           The conference on "Women in Power" is driven by a profound motivation to acknowledge
