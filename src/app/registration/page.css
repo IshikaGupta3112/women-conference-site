@@ -7,6 +7,6 @@ th,td {
   }
   @media(max-width:639px){
     th,td {
-        padding: 4px;
+        padding: 5px;
       }
 }

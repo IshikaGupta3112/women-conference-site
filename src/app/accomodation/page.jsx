@@ -15,7 +15,7 @@ const page = () => {
           participants in our six well-appointed guest house rooms. The rate for
           these rooms is Rs 1500 per day per room. 
           </p>
-          <p className="text-base lg:text-lg text-justify">
+          <p className="text-sm sm:text-base lg:text-lg text-justify">
         External student participants
           may choose accommodation in the girls' and boys' hostels on a
           first-come, first-served basis. For accommodation query please contact

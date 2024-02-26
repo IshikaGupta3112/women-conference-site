@@ -10,10 +10,10 @@ const page = () => {
     <>
       <Header active="committee" />
       <div className='min-h-[100vh]'>
-      <div className='flex flex-col justify-center items-center py-10 px-20 gap-10'>
+      <div className='flex flex-col justify-center items-center py-10 px-10 md:px-20 gap-10'>
         <div className='w-[100%] flex flex-col justify-center items-center '>
         <p className='text-lg sm:text-2xl font-bold'>Chief Patron</p>
-        <table className='  w-[100%] md:w-[90%] text-sm sm:text-base'>
+        <table className='w-[100%] md:w-[90%] text-sm sm:text-base'>
         <tr className='border-1 border-black'>
         <td className='border-1 border-black'>Dr. R.K. Agrawal</td>
         <td className='border-1 border-black'>Director General, AKGEC, Ghaziabad</td>

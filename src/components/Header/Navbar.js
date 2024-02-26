@@ -10,7 +10,7 @@ function Navigationbar(props) {
     <Navbar collapseOnSelect expand="md" className='py-0 border-b-2 border-gray'>
         <Navbar.Brand className='py-3 pl-4 md:pl-1 lg:pl-8'>
           <div className='flex items-center lg:gap-1'>
-          <img src="womenLogo.svg" className='w-[32px]' alt="Women in Power Logo" />
+          <Link href='/home'><img src="womenLogo.svg" className='w-[32px]' alt="Women in Power Logo" /></Link>
           <p className='text-base md:text-sm lg:text-lg font-medium mb-0'>Women in Power</p>
           </div>
         </Navbar.Brand>
