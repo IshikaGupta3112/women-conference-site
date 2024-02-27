@@ -20,10 +20,12 @@ const page = () => {
           </p>
           <p className=" text-center text-base sm:text-lg md:text-xl">
           The conference organized by Electrical and Electronics Department,{" "} 
+          <br></br>
             <span className="font-medium">
-              Ajay Kumar Garg Engineering College, Ghaziabad
+              Ajay Kumar Garg Engineering College, Ghaziabad,
             </span>
-            , will be held in offline  mode from{" "}
+            <br></br>
+            will be held in offline  mode from{" "}
             <span className="text-[#70307E] font-medium">
               12-13th April 2024.
             </span>
