@@ -18,6 +18,7 @@ const Footer = () => {
     </div>
     </div>
      <ul className='sm:hidden flex flex-col gap-3 text-center'>
+     <li className='text-base md:text-lg font-medium'>Quick Links</li> 
      <Link href='/home' className='no-underline text-black'><li className='text-sm md:text-base'>Home</li></Link>
      <Link href='/about' className='no-underline text-black'><li className='text-sm md:text-base'>About</li> </Link>
      <Link href='/committee' className='no-underline text-black'><li className='text-sm md:text-base'>Committee</li> </Link>
