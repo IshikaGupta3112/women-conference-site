@@ -5,7 +5,7 @@ const publicity=[
     },
     {
       name:"Dr. Namrata Gangil",
-      desg:"Associate Professor, IT, AKGEC, Ghaziabad"
+      desg:"Associate Professor, ME, AKGEC, Ghaziabad"
     },
     {
       name:"Ms. Nidhi Singh",
