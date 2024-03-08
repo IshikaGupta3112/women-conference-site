@@ -86,6 +86,7 @@ const paperTracks = [
       name: "Tech for Good: Innovations in Finance, Education, and Agriculture for Humanitarian Impact",
       list:[
         "FinTech for Humanitarian Technology",
+        "HealthTech for Humanitarian Technology",
         "EduTech for Humanitarian Technology",
         "AgriTech for Humanitarian Technology"
       ]

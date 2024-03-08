@@ -40,7 +40,7 @@ const page = () => {
     <>
       <Header active="call-for-paper" />
       <div className="min-h-100[vh]">
-      <div className="flex flex-col md:flex-row gap-4">
+      <div className="flex flex-col md:flex-row gap-2">
       <div className="md:h-screen md:overflow-y-auto md:w-[30%] scrollBar">
       <div className="w-[100%] border-r-2 border-gray  p-4">
         <div className="flex flex-col gap-4">
@@ -105,7 +105,7 @@ const page = () => {
       <p className="text-[#70307E] text-base lg:text-xl font-medium">
      {selectedTrackname}
       </p>
-     <ul style={{ listStyle: 'disc' }} className="flex flex-col gap-2 text-sm lg:text-base list-disc">
+     <ul style={{ listStyle: 'disc' }} className="flex flex-col gap-2 text-sm lg:text-base list-disc ml-6">
      {tracklist.map((item)=><li>{item}</li>)}
       </ul>
       </div>
@@ -118,7 +118,7 @@ const page = () => {
       <p className="text-[#70307E] text-base lg:text-xl font-medium">
      {selectedTopicname}
       </p>
-     <ul style={{ listStyle: 'disc' }} className="flex flex-col gap-2 text-sm lg:text-base list-disc">
+     <ul style={{ listStyle: 'disc' }} className="flex flex-col gap-2 text-sm lg:text-base list-disc ml-6">
      {topicList.map((item)=><li>{item}</li>)}
       </ul>
       </div>
@@ -126,7 +126,7 @@ const page = () => {
       <p className="text-[#70307E] text-base lg:text-xl font-medium">
      {selectedGuidename}
       </p>
-     <ul style={{ listStyle: 'disc' }} className="flex flex-col gap-2 text-sm lg:text-base list-disc">
+     <ul style={{ listStyle: 'disc' }} className="flex flex-col gap-2 text-sm lg:text-base list-disc ml-6">
      {guideList.map((item)=><li>{item}</li>)}
       </ul>
       </div>
