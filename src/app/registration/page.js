@@ -15,15 +15,15 @@ const page = () => {
             <table className="text-sm sm:text-base">
             <tr>
             <td className="border-1 border-black">Paper and Poster Submission </td>
-            <td >15th March 2024</td>
+            <td >25th March 2024</td>
             </tr>
             <tr className="border-1 border-black">
             <td className="border-1 border-black">Acceptance Notification</td>
-            <td>26th March 2024</td>
+            <td>30th March 2024</td>
             </tr>
             <tr className="border-1 border-black">
             <td className="border-1 border-black">Rangoli and Debate Participation</td>
-            <td>31st March 2024</td>
+            <td>25th March 2024</td>
             </tr>
             <tr className="border-1 border-black">
             <td className="border-1 border-black">Final Registration </td>
@@ -67,7 +67,7 @@ const page = () => {
             <td>Rs. 500/-</td>
             </tr>
             <tr className="border-1 border-black">
-            <td className="border-1 border-black">Debate Participation (Single participant)</td>
+            <td className="border-1 border-black">Debate Participation (In a team of two, with one member in position and the other in opposition)</td>
             <td>Rs. 800/-</td>
             </tr>
             <tr className="border-1 border-black">

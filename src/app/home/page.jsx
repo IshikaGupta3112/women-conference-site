@@ -27,7 +27,7 @@ const page = () => {
               <br></br>
               will be held in offline  mode from{" "}
               <span className="text-[#70307E] font-medium">
-                12-13th April 2024.
+                5th-6th April 2024.
               </span>
             </p>
             <button className="bg-[#70307E] text-white font-medium rounded-2xl px-5 py-3">

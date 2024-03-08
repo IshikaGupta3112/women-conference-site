@@ -119,7 +119,13 @@ const page = () => {
      {selectedTopicname}
       </p>
      <ul style={{ listStyle: 'disc' }} className="flex flex-col gap-2 text-sm lg:text-base list-disc ml-6">
-     {topicList.map((item)=><li>{item}</li>)}
+     {topicList.map((item, index) => (
+      <li key={index}>
+        {item.split('\n').map((line, index) => (
+          index === 0 ? <span key={index}>{line}</span> : <div key={index} className="italic">{line}</div>
+        ))}
+      </li>
+    ))}
       </ul>
       </div>
       <div className="hidden md:flex flex-col py-4 gap-2">
