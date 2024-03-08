@@ -83,7 +83,7 @@ const paperTracks = [
     },
     {
       id: "5",
-      name: "Tech for Good: Innovations in Finance, Education, and Agriculture for Humanitarian Impact",
+      name: "Tech for Good: Innovations in Finance, Healthcare,  Education, and Agriculture for Humanitarian Impact",
       list:[
         "FinTech for Humanitarian Technology",
         "HealthTech for Humanitarian Technology",

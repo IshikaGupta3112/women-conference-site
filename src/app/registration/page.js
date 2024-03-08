@@ -40,26 +40,48 @@ const page = () => {
             </tr>
             <tr className="border-1 border-black">
             <td className="border-1 border-black">Delegates from Academics and Industry(Non IEEE members)</td>
-            <td >Rs. 1500/-</td>
+            <td >Rs. 1000/-</td>
             </tr>
             <tr className="border-1 border-black">
             <td className="border-1 border-black">Delegates from Academics and Industry(IEEE members)</td>
-            <td>Rs. 1000/-</td>
-            </tr>
-            <tr className="border-1 border-black">
-            <td className="border-1 border-black">Student Participants(Single Participants)</td>
-            <td>Rs. 500/-</td>
-            </tr>
-            <tr className="border-1 border-black">
-            <td className="border-1 border-black">Student Participation(In a team of two)</td>
             <td>Rs. 800/-</td>
             </tr>
             <tr className="border-1 border-black">
-            <td className="border-1 border-black">Additional Student Member(in any activity)</td>
+            <td className="border-1 border-black">Student Participation Paper & Poster (Single participant)</td>
             <td>Rs. 500/-</td>
             </tr>
+            <tr className="border-1 border-black">
+            <td className="border-1 border-black">Student Participation Paper & Poster (In a team of two)</td>
+            <td>Rs. 800/-</td>
+            </tr>
+            <tr className="border-1 border-black">
+            <td className="border-1 border-black">Student Participation *Rangoli (Single participant)</td>
+            <td>Rs. 300/-</td>
+            </tr>
+            <tr className="border-1 border-black">
+            <td className="border-1 border-black">Student Participation *Rangoli (In a team of two)</td>
+            <td>Rs. 500/-</td>
+            </tr>
+            <tr className="border-1 border-black">
+            <td className="border-1 border-black">Debate Participation (Single participant)</td>
+            <td>Rs. 500/-</td>
+            </tr>
+            <tr className="border-1 border-black">
+            <td className="border-1 border-black">Debate Participation (Single participant)</td>
+            <td>Rs. 800/-</td>
+            </tr>
+            <tr className="border-1 border-black">
+            <td className="border-1 border-black">Additional Student Member (In paper and Poster)</td>
+            <td>Rs. 400/-</td>
+            </tr>
+            <tr className="border-1 border-black">
+            <td className="border-1 border-black">Additional Student Member (In Rangoli)</td>
+            <td>Rs. 250/-</td>
+            </tr>
             </table>
-            <p className="text-[#70307E] font-normal md:w-[80%] lg:w-[55%] text-center mt-2">The registration fee covers the conference kit, meals, tea, and other related amenities,
+            <p className="text-[#70307E] md:w-[80%] lg:w-[55%] text-center mt-3 font-medium"> 
+*Rangoli participants will bring their own dry Rangoli colours and the required accessories. The Rangoli must be confined within an area of 2.5 feet x 2.5 feet.</p>
+            <p className="text-[#70307E] font-normal md:w-[80%] lg:w-[55%] text-center">The registration fee covers the conference kit, meals, tea, and other related amenities,
 excluding accommodation.</p>
             </div>
             <div className="flex flex-col justify-center items-center sm:w-[90%] md:w-[70%]">
