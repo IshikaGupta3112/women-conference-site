@@ -12,7 +12,7 @@ const page = () => {
       <div className='min-h-[100vh]'>
       <div className='flex flex-col justify-center items-center py-10 px-10 md:px-20 gap-10'>
         <div className='w-[100%] flex flex-col justify-center items-center '>
-        <p className='text-lg sm:text-2xl font-bold'>Chief Patron</p>
+        <p className='text-lg sm:text-2xl font-medium text-[#70307E]'>Chief Patron</p>
         <table className='w-[100%] md:w-[90%] text-sm sm:text-base'>
         <tr className='border-1 border-black'>
         <td className='border-1 border-black w-[40%]'>Dr. R.K. Agrawal</td>
@@ -21,7 +21,7 @@ const page = () => {
         </table>
         </div>
         <div className='w-[100%] flex flex-col justify-center items-center '>
-        <p className='text-lg sm:text-2xl font-bold'>Convener</p>
+        <p className='text-lg sm:text-2xl font-medium text-[#70307E]'>Convener</p>
         <table className='  w-[100%] md:w-[90%] text-sm sm:text-base'>
         <tr className='border-1 border-black'>
         <td className='border-1 border-black w-[40%]'>Dr. Hemant Ahuja</td>
@@ -30,7 +30,7 @@ const page = () => {
         </table>
         </div>
         <div className='w-[100%] flex flex-col justify-center items-center '>
-        <p className='text-lg sm:text-2xl font-bold'>Co-ordinator</p>
+        <p className='text-lg sm:text-2xl font-medium text-[#70307E]'>Co-ordinator</p>
         <table className='  w-[100%] md:w-[90%] text-sm sm:text-base'>
         <tr className='border-1 border-black'>
         <td className='border-1 border-black w-[40%]'>Dr. Vani Bhargava</td>
@@ -39,7 +39,7 @@ const page = () => {
         </table>
         </div>
         <div className='w-[100%] flex flex-col justify-center items-center '>
-        <p className='text-lg sm:text-2xl  font-bold'>Publicity Committee</p>
+        <p className='text-lg sm:text-2xl font-medium text-[#70307E]'>Publicity Committee</p>
         <table className='  w-[100%] md:w-[90%] text-sm sm:text-base'>
         {publicity.map((item)=>
         <tr className='border-1 border-black'>
@@ -50,7 +50,7 @@ const page = () => {
         </table>
         </div>
         <div className='w-[100%] flex flex-col justify-center items-center '>
-        <p className='text-lg sm:text-2xl font-bold'>Student Activities Committee</p>
+        <p className='text-lg sm:text-2xl font-medium text-[#70307E]'>Student Activities Committee</p>
         <table className='  w-[100%] md:w-[90%] text-sm sm:text-base'>
         {studentAct.map((item)=>
         <tr className='border-1 border-black'>
@@ -61,7 +61,7 @@ const page = () => {
         </table>
         </div>
         <div className='w-[100%] flex flex-col justify-center items-center '>
-        <p className='text-lg sm:text-2xl  font-bold'>Hospitality Committee</p>
+        <p className='text-lg sm:text-2xl font-medium text-[#70307E]'>Hospitality Committee</p>
         <table className='border-1 border-black w-[100%] md:w-[90%] text-sm sm:text-base'>
         {hospitality.map((item)=>
         <tr className='border-1 border-black'>

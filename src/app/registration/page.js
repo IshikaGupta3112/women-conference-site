@@ -11,7 +11,7 @@ const page = () => {
             <div className='min-h-[100vh]'>
             <div className="flex flex-col justify-center items-center px-6 py-10 sm:p-10 gap-12">
             <div className="flex flex-col justify-center items-center w-[100%] sm:w-[90%] md:w-[70%]">
-            <p className="text-[#70307E] text-2xl">Important Dates</p>
+            <p className="text-[#70307E] text-2xl font-medium">Important Dates</p>
             <table className="text-sm sm:text-base">
             <tr>
             <td className="border-1 border-black">Paper and Poster Submission </td>
@@ -32,7 +32,7 @@ const page = () => {
             </table>
             </div>
             <div className="flex flex-col justify-center items-center sm:w-[90%]">
-            <p className="text-[#70307E] text-2xl">Registration Fee</p>
+            <p className="text-[#70307E] text-2xl font-medium">Registration Fee</p>
             <table className="text-sm sm:text-base border-1 border-black">
             <tr className="border-1 border-black">
             <th className="border-1 border-black">Registration category</th>
@@ -85,20 +85,20 @@ const page = () => {
 excluding accommodation.</p>
             </div>
             <div className="flex flex-col justify-center items-center sm:w-[90%] md:w-[70%]">
-            <p className="text-[#70307E] text-2xl">Registration Links</p>
+            <p className="text-[#70307E] text-2xl font-medium">Registration Links</p>
             <table className="text-sm sm:text-base border-1 border-black">
             <tr className="border-1 border-black">
             <td className="border-1 border-black">For Student Participants</td>
-            <td ><a href="https://forms.gle/aBk5gaYnjmXjEiM97" className="underline text-[#70307E]" target='_blank'>Form Link</a></td>
+            <td ><a href="https://forms.gle/aBk5gaYnjmXjEiM97" className="underline text-[#70307E] font-bold" target='_blank'>Form Link</a></td>
             </tr>
             <tr className="border-1 border-black">
             <td className="border-1 border-black">Delegate Registration</td>
-            <td><a href="https://forms.gle/NDsnxrNg6883Sv1L7" className="underline text-[#70307E]" target='_blank'>Form Link</a></td>
+            <td><a href="https://forms.gle/NDsnxrNg6883Sv1L7" className="underline text-[#70307E] font-bold" target='_blank'>Form Link</a></td>
             </tr>
             </table>
             </div>
             <div className="flex flex-col justify-center items-center sm:w-[90%] md:w-[70%]">
-            <p className="text-[#70307E] text-2xl">Payment Details</p>
+            <p className="text-[#70307E] text-2xl font-medium">Payment Details</p>
             <table className="text-sm sm:text-base border-1 border-black">
             <tr>
             <th colSpan={2} className="text-center">Details of IMPS/UPI/RTGS/NEFT:</th>
