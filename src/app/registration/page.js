@@ -9,7 +9,7 @@ const page = () => {
         <div>
             <Header active="registration" />
             <div className='min-h-[100vh]'>
-            <div className="flex flex-col justify-center items-center px-6 py-10 sm:p-10 gap-12">
+            <div className="flex flex-col justify-center items-center px-6 py-10 sm:p-10 gap-8">
             <div className="flex flex-col justify-center items-center w-[100%] sm:w-[90%] md:w-[70%]">
             <p className="text-[#70307E] text-2xl font-medium">Important Dates</p>
             <table className="text-sm sm:text-base">
@@ -32,8 +32,8 @@ const page = () => {
             </table>
             </div>
             <div className="flex flex-col justify-center items-center sm:w-[90%]">
-            <p className="text-[#70307E] text-2xl font-medium">Registration Fee</p>
-            <table className="text-sm sm:text-base border-1 border-black">
+            {/* <p className="text-[#70307E] text-2xl font-medium">Registration Fee</p> */}
+            {/* <table className="text-sm sm:text-base border-1 border-black">
             <tr className="border-1 border-black">
             <th className="border-1 border-black">Registration category</th>
             <th>Registration fee</th>
@@ -78,13 +78,15 @@ const page = () => {
             <td className="border-1 border-black">Additional Student Member (In Rangoli)</td>
             <td>Rs. 250/-</td>
             </tr>
-            </table>
+            </table> */}
             <p className="text-[#70307E] md:w-[80%] lg:w-[55%] text-center mt-3 font-medium"> 
 *Rangoli participants will bring their own dry Rangoli colours and the required accessories. The Rangoli must be confined within an area of 2.5 feet x 2.5 feet.</p>
-            <p className="text-[#70307E] font-normal md:w-[80%] lg:w-[55%] text-center">The registration fee covers the conference kit, meals, tea, and other related amenities,
-excluding accommodation.</p>
+<p className="text-[#70307E] md:w-[80%] lg:w-[55%] text-center mt-3 font-normal"> 
+All the Participants will receive participation certificates, and prizes will be awarded to the winners of the student activity competitions.</p>
+            {/* <p className="text-[#70307E] font-normal md:w-[80%] lg:w-[55%] text-center">The registration fee covers the conference kit, meals, tea, and other related amenities,
+excluding accommodation.</p> */}
             </div>
-            <div className="flex flex-col justify-center items-center sm:w-[90%] md:w-[70%]">
+            <div className="flex flex-col justify-center items-center sm:w-[90%]">
             <p className="text-[#70307E] text-2xl font-medium">Registration Links</p>
             <table className="text-sm sm:text-base border-1 border-black">
             <tr className="border-1 border-black">
@@ -96,8 +98,10 @@ excluding accommodation.</p>
             <td><a href="https://forms.gle/NDsnxrNg6883Sv1L7" className="underline text-[#70307E] font-bold" target='_blank'>Form Link</a></td>
             </tr>
             </table>
+            <p className="text-[#70307E] md:w-[80%] lg:w-[55%] text-center mt-6 font-medium"> 
+            Registrations will be accepted on a first-come-first-served basis, with participation being limited to the permissible number of registrations allowed.</p>
             </div>
-            <div className="flex flex-col justify-center items-center sm:w-[90%] md:w-[70%]">
+            {/* <div className="flex flex-col justify-center items-center sm:w-[90%] md:w-[70%]">
             <p className="text-[#70307E] text-2xl font-medium">Payment Details</p>
             <table className="text-sm sm:text-base border-1 border-black">
             <tr>
@@ -136,7 +140,7 @@ excluding accommodation.</p>
             <td>0120-2790969</td>
             </tr>
             </table>
-            </div>
+            </div> */}
             </div>
             </div>
         <Footer />
