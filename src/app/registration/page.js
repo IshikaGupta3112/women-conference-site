@@ -79,6 +79,8 @@ const page = () => {
             <td>Rs. 250/-</td>
             </tr>
             </table> */}
+             <p className="md:w-[80%] lg:w-[55%] text-center mt-3"> 
+For submission, please send the paper and poster to the following email address: <span className="text-[#70307E] font-medium">eee.events@akgec.ac.in</span> with CC to <span className="text-[#70307E] font-medium">bhargavavani@akgec.ac.in</span></p>
             <p className="text-[#70307E] md:w-[80%] lg:w-[55%] text-center mt-3 font-medium"> 
 *Rangoli participants will bring their own dry Rangoli colours and the required accessories. The Rangoli must be confined within an area of 2.5 feet x 2.5 feet.</p>
 <p className="text-[#70307E] md:w-[80%] lg:w-[55%] text-center mt-3 font-normal"> 
