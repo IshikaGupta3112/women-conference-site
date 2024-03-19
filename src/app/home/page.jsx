@@ -118,9 +118,9 @@ const page = () => {
             <p className="text-sm sm:text-base md:text-lg text-center">
               For submission, please send the paper and poster to the following
               email address:{" "}
-              <span className="text-[#70307E]">eee.events@akgec.ac.in</span>{" "}
+              <a href="mailto:eee.events@akgec.ac.in" className="text-[#70307E] no-underline">eee.events@akgec.ac.in</a>{" "}
               with CC to{" "}
-              <span className="text-[#70307E]">bhargavavani@akgec.ac.in</span>{" "}
+              <a href="mailto:bhargavavani@akgec.ac.in" className="text-[#70307E] no-underline">bhargavavani@akgec.ac.in</a>{" "}
               <br></br>
               <br></br>
               <p className="italic font-bold">

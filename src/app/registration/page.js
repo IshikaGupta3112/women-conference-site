@@ -15,7 +15,7 @@ const page = () => {
             <table className="text-sm sm:text-base">
             <tr>
             <td className="border-1 border-black">Paper and Poster Submission </td>
-            <td >25th March 2024</td>
+            <td >27th March 2024</td>
             </tr>
             <tr className="border-1 border-black">
             <td className="border-1 border-black">Acceptance Notification</td>
@@ -23,7 +23,7 @@ const page = () => {
             </tr>
             <tr className="border-1 border-black">
             <td className="border-1 border-black">Rangoli and Debate Participation</td>
-            <td>25th March 2024</td>
+            <td>27th March 2024</td>
             </tr>
             <tr className="border-1 border-black">
             <td className="border-1 border-black">Final Registration </td>
@@ -79,8 +79,8 @@ const page = () => {
             <td>Rs. 250/-</td>
             </tr>
             </table> */}
-             <p className="md:w-[80%] lg:w-[55%] text-center mt-3"> 
-For submission, please send the paper and poster to the following email address: <span className="text-[#70307E] font-medium">eee.events@akgec.ac.in</span> with CC to <span className="text-[#70307E] font-medium">bhargavavani@akgec.ac.in</span></p>
+             <p className="md:w-[80%] lg:w-[55%] text-center mt-3 font-medium"> 
+For submission, please send the paper and poster to the following email address: <a href="mailto:eee.events@akgec.ac.in" className="text-[#70307E] font-medium no-underline">eee.events@akgec.ac.in</a> with CC to <a href="mailto:bhargavavani@akgec.ac.in" className="text-[#70307E] font-medium no-underline">bhargavavani@akgec.ac.in</a></p>
             <p className="text-[#70307E] md:w-[80%] lg:w-[55%] text-center mt-3 font-medium"> 
 *Rangoli participants will bring their own dry Rangoli colours and the required accessories. The Rangoli must be confined within an area of 2.5 feet x 2.5 feet.</p>
 <p className="text-[#70307E] md:w-[80%] lg:w-[55%] text-center mt-3 font-normal"> 
