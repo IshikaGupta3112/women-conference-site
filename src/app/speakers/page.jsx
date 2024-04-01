@@ -10,7 +10,7 @@ const page = () => {
                     <div className="flex flex-col justify-center items-center gap-1">
                 <p className="text-[#70307E] text-xl sm:text-2xl font-medium text-center">Inaugural Session</p>
                 <div className="flex gap-6 lg:gap-10 justify-center flex-wrap">
-                <img src='/chiefGuest.jpg' className=" w-4/5 sm:w-2/5 md:w-[30%] rounded-xl"></img>
+                <img src='/chiefGuest.jpeg' className=" w-4/5 sm:w-2/5 md:w-[30%] rounded-xl"></img>
                     <img src='/5.jpg' className=" w-4/5 sm:w-2/5 md:w-[30%] rounded-xl"></img>
                     <img src='/6.jpg' className=" w-4/5 sm:w-2/5 md:w-[30%] rounded-xl"></img>
                 </div>
@@ -28,8 +28,8 @@ const page = () => {
                     <img src='/1.jpg' className="w-4/5 sm:w-2/5 md:w-[30%] rounded-xl"></img>
                     <img src='/2.jpg' className="w-4/5 sm:w-2/5 md:w-[30%] rounded-xl"></img>
                     <img src='/3.jpg' className=" w-4/5 sm:w-2/5 md:w-[30%] rounded-xl"></img>
-                    <img src='/panelMember1.jpg' className=" w-4/5 sm:w-2/5 md:w-[30%] rounded-xl"></img>
-                    <img src='/panelMember2.jpg' className=" w-4/5 sm:w-2/5 md:w-[30%] rounded-xl"></img>
+                    <img src='/panelMember1.jpeg' className=" w-4/5 sm:w-2/5 md:w-[30%] rounded-xl"></img>
+                    <img src='/panelMember2.jpeg' className=" w-4/5 sm:w-2/5 md:w-[30%] rounded-xl"></img>
                 </div>
                 </div>
                 </div>
