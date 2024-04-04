@@ -12,7 +12,7 @@ const page = () => {
                 <div className="flex gap-6 lg:gap-10 justify-center flex-wrap">
                 <img src='/chiefGuest.jpeg' className=" w-4/5 sm:w-2/5 md:w-[30%] rounded-xl"></img>
                     <img src='/5.jpg' className=" w-4/5 sm:w-2/5 md:w-[30%] rounded-xl"></img>
-                    <img src='/6.jpg' className=" w-4/5 sm:w-2/5 md:w-[30%] rounded-xl"></img>
+                    <img src="/6'.jpg" className=" w-4/5 sm:w-2/5 md:w-[30%] rounded-xl"></img>
                 </div>
                 </div>
                 <div className="flex flex-col justify-center items-center gap-1">
